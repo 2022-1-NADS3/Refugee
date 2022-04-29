@@ -8,7 +8,7 @@
 
 ## Grupo 1
 
-## Integrantes: <a href="https://www.linkedin.com/in/antonio-carlos2410/">Antônio Carlos</a>, <a href="https://www.linkedin.com/in/marcosvinicius09/">Marcos Vinicius</a>, <a href="https://www.linkedin.com/in/victorbarq/">Rene Cardoso</a>, <a href="https://www.linkedin.com/in/victorbarq/">Tiago Vidulich</a>, <a href="https://www.linkedin.com/in/victorbarq/">Thiago Shin</a>
+## Integrantes: <a href="https://www.linkedin.com/in/antonio-cardoso2410/">Antônio Carlos</a>, <a href="https://www.linkedin.com/in/marcosvinicius09/">Marcos Vinicius</a>, <a href="https://www.linkedin.com/in/renê-cardoso-41a7551a3/">Rene Cardoso</a>, <a href="https://www.linkedin.com/in/tiago-janetich-vidulich-a222a1b5/">Tiago Vidulich</a>, <a href="https://www.linkedin.com/in/thiagoshinji/">Thiago Shin</a>
 
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
 
