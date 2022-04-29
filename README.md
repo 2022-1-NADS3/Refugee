@@ -20,9 +20,9 @@
 </p>
 
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
+<h3>Refugee</h3>
 <br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
+Refugee foi criada com o objetivo de ajudar e auxiliar na integraçào de um refugiado e levá-lo á quem tem a possibilidade e recursos para ajudar(ongs e Insituições.
 <br><br>
 May the force be with you!
 <br><br>
