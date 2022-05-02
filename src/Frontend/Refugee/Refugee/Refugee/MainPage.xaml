@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Refugee.MainPage"
+             BackgroundColor="White">
+
+    <StackLayout>
+        <Image Source="logo.png" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+        <Label Text="Seja bem-vindo ao Refugee" FontSize="24" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Label Text="Cadastre-se já" FontSize="24" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Button Text="Sou Refugiado" BackgroundColor="Green" FontFamily="" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+        <Button Text="     Sou ONG     " BackgroundColor="Green" FontFamily="" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+
+    </StackLayout>
+
+</ContentPage>
