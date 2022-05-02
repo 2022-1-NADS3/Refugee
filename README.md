@@ -10,19 +10,19 @@
 
 ## Integrantes: <a href="https://www.linkedin.com/in/antonio-cardoso2410/">Antônio Carlos</a>, <a href="https://www.linkedin.com/in/marcosvinicius09/">Marcos Vinicius</a>, <a href="https://www.linkedin.com/in/renê-cardoso-41a7551a3/">Rene Cardoso</a>, <a href="https://www.linkedin.com/in/tiago-janetich-vidulich-a222a1b5/">Tiago Vidulich</a>, <a href="https://www.linkedin.com/in/thiagoshinji/">Thiago Shin</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Rosetti</a>, <a href="https://www.linkedin.com/in/aimarlopes/">Aimar Lopes</a>, <a href="https://www.linkedin.com/in/francisco-escobar/">Francisco Escobar</a>, <a href="https://www.linkedin.com/in/dolemes/">David Lemes</a>
 
-## Descrição
+## A ideia inicial do projeto é fazer um sistema, onde os países iram verificar o número de refugiados em seu país, refugiados em ONGs e instituições de apoio do governo, auxiliando na contagem de pessoa e registros.
 
 <p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
+<img src="src/Frontend/Refugee/Refugee/Refugee.Android/Resources/drawable/logo.png" alt="Logo Refugee" border="0">
+ 
 </p>
 
 
 <h3>Refugee</h3>
 <br><br>
-Refugee foi criada com o objetivo de ajudar e auxiliar na integraçào de um refugiado e levá-lo á quem tem a possibilidade e recursos para ajudar(ongs e Insituições.
+Refugee foi criada com o objetivo de ajudar e auxiliar na integraçào de um refugiado e levá-lo á quem tem a possibilidade e recursos para ajudar ongs e Insituições.
 <br><br>
 May the force be with you!
 <br><br>
