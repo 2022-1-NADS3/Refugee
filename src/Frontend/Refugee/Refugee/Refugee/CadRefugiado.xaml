@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Refugee.CadRefugiado"
+             BackgroundColor="White">
+
+    <StackLayout>
+        <Image Source="logo.png" 
+               Margin="30, 100 , 30, 0"/>
+        
+        <Label Text="Cadastro Refugiado" 
+               TextColor="Black" 
+               HorizontalOptions="CenterAndExpand" 
+               VerticalOptions="Center" 
+               FontSize="24"/>
+        
+        <Line X1="380"
+            Y1="0"
+            X2="30"
+            Y2="0"
+            Stroke="Black" VerticalOptions="Center" />
+        <Label Text="Nome Completo" 
+               TextColor="Black" 
+               FontSize="20"  Margin="30, 0, 30, 5"/>
+        
+        <Entry x:Name="Nome" 
+               Placeholder="Informe seu nome completo" 
+               TextColor="Black" 
+               PlaceholderColor="Black" 
+               BackgroundColor="AliceBlue" 
+               ClearButtonVisibility="WhileEditing" 
+               Margin="30, 0, 30, 5"/>
+        
+        <Label Text="Nome Social" 
+               TextColor="Black" 
+               FontSize="20"  
+               Margin="30, 0, 30, 5"/>
+        
+        <Entry x:Name="NomeSocial" 
+               Placeholder="Informe seu nome social" 
+               TextColor="Black" 
+               PlaceholderColor="Black" 
+               BackgroundColor="AliceBlue" 
+               ClearButtonVisibility="WhileEditing" 
+               Margin="30, 0, 30, 5"/>
+        
+        <Label Text="Data de Nacimento"
+               TextColor="Black" 
+               FontSize="20"  
+               Margin="30, 0, 30, 5"/>
+        
+        <DatePicker x:Name="CampoData"
+                    Format="D"
+                    Margin="30, 0, 30, 5"
+                    TextColor="Black"
+                    FontSize="17"
+                    BackgroundColor="AliceBlue"/>
+
+        <Button Text="Finalizar Cadastro" 
+                BackgroundColor="Green" 
+                FontFamily="" 
+                FontSize="15"
+                Margin="210, 30 , 30, 0"
+                Clicked="TenhoCadastroR"/>
+
+        <Button Text="Já sou cadastrado" 
+                BackgroundColor="Green" 
+                FontFamily="" 
+                FontSize="15"
+                Margin="30, -54 , 210, 0"
+                Clicked="TenhoCadastroR"/>
+
+
+    </StackLayout>
+
+</ContentPage>

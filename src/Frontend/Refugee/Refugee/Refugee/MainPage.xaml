@@ -5,11 +5,34 @@
              BackgroundColor="White">
 
     <StackLayout>
-        <Image Source="logo.png" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
-        <Label Text="Seja bem-vindo ao Refugee" FontSize="24" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
-        <Label Text="Cadastre-se já" FontSize="24" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
-        <Button Text="Sou Refugiado" BackgroundColor="Green" FontFamily="" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
-        <Button Text="     Sou ONG     " BackgroundColor="Green" FontFamily="" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+        <Image Source="logo.png" 
+               Margin="30, 100 , 30, 0"/>
+        
+        <Label Text="Seja bem-vindo ao Refugee" 
+               FontSize="28" 
+               TextColor="Black" 
+               HorizontalTextAlignment="Center"
+               Margin="30, 125 , 30, 0"/>
+        
+        <Label Text="Cadastre-se já" 
+               FontSize="28" 
+               TextColor="Black" 
+               HorizontalTextAlignment="Center"
+               Margin="30, 0 , 30, 0"/>
+        
+        <Button Text="Sou Refugiado" 
+                BackgroundColor="Green" 
+                FontFamily=""  
+                Clicked="LoginRefugiados"
+                FontSize="15"
+                Margin="70, 125 , 70, 0"/>
+        
+        <Button Text="Sou ONG" 
+                BackgroundColor="Green" 
+                FontFamily=""  
+                Clicked="LoginONGs"
+                FontSize="15"
+                Margin="70, -4 , 70, 0"/>
 
     </StackLayout>
 

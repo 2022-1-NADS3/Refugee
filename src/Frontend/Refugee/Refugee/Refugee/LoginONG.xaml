@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Refugee.LoginONG"
+             BackgroundColor="White">
+    <StackLayout>
+        <Image Source="logo.png" 
+               Margin="30, 100 , 30, 0"/>
+        
+        <Label Text="Login ONGs" 
+               TextColor="Black" 
+               Margin="30, 0, 30, 0" 
+               HorizontalTextAlignment="Center"
+               FontSize="24"/>
+
+        <Line X1="380"
+            Y1="0"
+            X2="30"
+            Y2="0"
+            Stroke="Black" 
+            VerticalOptions="Center"/>
+
+        <Label Text="Usuario" 
+               TextColor="Black" 
+               FontSize="20"  Margin="30, 0, 30, 5"/>
+
+        <Entry x:Name="Login" 
+               Placeholder="exemplo@gmail.com" 
+               TextColor="Black" 
+               PlaceholderColor="Black" 
+               BackgroundColor="AliceBlue" 
+               ClearButtonVisibility="WhileEditing" 
+               Margin="30, 0, 30, 5"/>
+
+        <Label Text="Senha" 
+               TextColor="Black" 
+               FontSize="20"  
+               Margin="30, 0, 30, 5"/>
+
+        <Entry x:Name="Senha" 
+               Placeholder="Insira sua senha" 
+               IsPassword="True"
+               TextColor="Black" 
+               PlaceholderColor="Black" 
+               BackgroundColor="AliceBlue" 
+               ClearButtonVisibility="WhileEditing" 
+               Margin="30, 0, 30, 5"/>
+
+        <Button Text="Logar" 
+                BackgroundColor="Green" 
+                FontFamily="" 
+                FontSize="15"
+                Margin="210, 30 , 30, 0"/>
+
+        <Button Text="Fazer Cadastro" 
+                BackgroundColor="Green" 
+                FontFamily="" 
+                FontSize="15"
+                Margin="30, -54 , 210, 0"
+                Clicked="FazerCadastroO"/>
+    </StackLayout>
+</ContentPage>

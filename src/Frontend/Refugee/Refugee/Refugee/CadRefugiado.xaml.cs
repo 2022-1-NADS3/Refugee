@@ -1,24 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace Refugee
 {
-    public partial class MainPage : ContentPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class CadRefugiado : ContentPage
     {
-        private void LoginRefugiados(object sender, EventArgs e)
+        private void TenhoCadastroR(object sender, EventArgs e)
         {
             Navigation.PushAsync(new LoginRefugiado());
         }
-        private void LoginONGs(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new LoginONG());
-        }
-        public MainPage()
+        public CadRefugiado()
         {
             InitializeComponent();
         }

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Refugee.CadONG"
+             BackgroundColor="White">
+
+    <StackLayout>
+        <Image Source="logo.png" 
+               Margin="30, 100 , 30, 0"/>
+        
+        <Label Text="Cadastro ONGs" 
+               TextColor="Black" 
+               HorizontalOptions="CenterAndExpand" 
+               VerticalOptions="Center" 
+               FontSize="24"/>
+        
+        <Line X1="380"
+            Y1="0"
+            X2="30"
+            Y2="0"
+            Stroke="Black" 
+            VerticalOptions="Center" />
+        
+        <Label Text="Nome ONG" 
+               TextColor="Black" 
+               FontSize="20"  Margin="30, 0, 30, 5"/>
+
+        <Entry x:Name="NomeONG" 
+               Placeholder="Informe o nome da instituição" 
+               TextColor="Black" 
+               PlaceholderColor="Black" 
+               BackgroundColor="AliceBlue" 
+               ClearButtonVisibility="WhileEditing" 
+               Margin="30, 0, 30, 5"/>
+
+        <Label Text="Nº de Registro" 
+               TextColor="Black" 
+               FontSize="20"  
+               Margin="30, 0, 30, 5"/>
+
+        <Entry x:Name="Registro" 
+               Placeholder="Informe seu nº de Registro" 
+               TextColor="Black" 
+               PlaceholderColor="Black" 
+               BackgroundColor="AliceBlue" 
+               ClearButtonVisibility="WhileEditing" 
+               Margin="30, 0, 30, 5"/>
+
+        <Label Text="Telefone" 
+               TextColor="Black" 
+               FontSize="20"  
+               Margin="30, 0, 30, 5"/>
+
+        <Entry x:Name="telefone" 
+               Placeholder="Informe seu nº de Telefone" 
+               TextColor="Black" 
+               PlaceholderColor="Black" 
+               BackgroundColor="AliceBlue" 
+               ClearButtonVisibility="WhileEditing" 
+               Margin="30, 0, 30, 5"/>
+
+        <Button Text="Finalizar Cadastro" 
+                BackgroundColor="Green" 
+                FontFamily="" 
+                FontSize="15"
+                Margin="210, 30 , 30, 0"
+                Clicked="TenhoCadastroO"/>
+        
+        <Button Text="Já sou cadastrado" 
+                BackgroundColor="Green" 
+                FontFamily="" 
+                FontSize="15"
+                Margin="30, -54 , 210, 0"
+                Clicked="TenhoCadastroO"/>
+
+
+
+
+    </StackLayout>
+
+</ContentPage>
