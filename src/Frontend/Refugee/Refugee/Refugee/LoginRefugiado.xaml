@@ -3,60 +3,66 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Refugee.LoginRefugiado"
              BackgroundColor="White">
-    <StackLayout>
-        <Image Source="logo.png" 
-               Margin="30, 100 , 30, 0"/>
+    <ScrollView>
+        <StackLayout>
+            <Image Source="logo.png" 
+                   Margin="30, 100 , 30, 0"/>
 
-        <Label Text="Login Refugiado" 
-               TextColor="Black" 
-               Margin="30, 0, 30, 0" 
-               HorizontalTextAlignment="Center"
-               FontSize="24"/>
+            <Label Text="Login Refugiado" 
+                   TextColor="Black" 
+                   Margin="30, 0, 30, 0" 
+                   HorizontalTextAlignment="Center"
+                   FontSize="24"/>
 
-        <Line X1="380"
-            Y1="0"
-            X2="30"
-            Y2="0"
-            Stroke="Black" 
-            VerticalOptions="Center"/>
-        
-        <Label Text="Usuario" 
-               TextColor="Black" 
-               FontSize="20"  Margin="30, 0, 30, 5"/>
+            <Line X1="380"
+                Y1="0"
+                X2="30"
+                Y2="0"
+                Stroke="Black" 
+                VerticalOptions="Center"/>
 
-        <Entry x:Name="Login" 
-               Placeholder="exemplo@gmail.com" 
-               TextColor="Black" 
-               PlaceholderColor="Black" 
-               BackgroundColor="AliceBlue" 
-               ClearButtonVisibility="WhileEditing" 
-               Margin="30, 0, 30, 5"/>
+            <Entry x:Name="Login" 
+                   Placeholder="Email ou número de telefone" 
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
 
-        <Label Text="Senha" 
-               TextColor="Black" 
-               FontSize="20"  
-               Margin="30, 0, 30, 5"/>
+            <Entry x:Name="Senha" 
+                   Placeholder="Senha" 
+                   IsPassword="True"
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
 
-        <Entry x:Name="Senha" 
-               Placeholder="Insira sua senha" 
-               IsPassword="True"
-               TextColor="Black" 
-               PlaceholderColor="Black" 
-               BackgroundColor="AliceBlue" 
-               ClearButtonVisibility="WhileEditing" 
-               Margin="30, 0, 30, 5"/>
-        
-        <Button Text="Logar" 
-                BackgroundColor="Green" 
-                FontFamily="" 
-                FontSize="15"
-                Margin="210, 30 , 30, 0"/>
+            <Button Text="Logar" 
+                    BackgroundColor="Green" 
+                    FontFamily="" 
+                    FontSize="15"
+                    Margin="30, 0 , 30, 0"/>
 
-        <Button Text="Fazer Cadastro" 
-                BackgroundColor="Green" 
-                FontFamily="" 
-                FontSize="15"
-                Margin="30, -54 , 210, 0"
-                Clicked="FazerCadastroR"/>
-    </StackLayout>
+            <Label Text="ou"
+                   FontSize="20"
+                   TextColor="Black"
+                   HorizontalOptions="Center"/>
+
+            <Button Text="Fazer Cadastro" 
+                    BackgroundColor="Green" 
+                    FontFamily="" 
+                    FontSize="15"
+                    Margin="30, 0 , 30, 0"
+                    Clicked="FazerCadastroR"/>
+
+            <Button Text="Esqueceu sua senha?"
+                    TextColor="Black"
+                    BackgroundColor="White"
+                    FontSize="15"
+                    Margin="30, 0, 30, 0"/>
+            <!--Clicked="none"-->
+
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

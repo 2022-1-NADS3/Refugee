@@ -20,43 +20,46 @@
             Stroke="Black" 
             VerticalOptions="Center"/>
 
-        <Label Text="Usuario" 
-               TextColor="Black" 
-               FontSize="20"  Margin="30, 0, 30, 5"/>
-
         <Entry x:Name="Login" 
-               Placeholder="exemplo@gmail.com" 
-               TextColor="Black" 
-               PlaceholderColor="Black" 
-               BackgroundColor="AliceBlue" 
-               ClearButtonVisibility="WhileEditing" 
-               Margin="30, 0, 30, 5"/>
-
-        <Label Text="Senha" 
-               TextColor="Black" 
-               FontSize="20"  
-               Margin="30, 0, 30, 5"/>
+                   Placeholder="Email ou número de telefone" 
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
 
         <Entry x:Name="Senha" 
-               Placeholder="Insira sua senha" 
-               IsPassword="True"
-               TextColor="Black" 
-               PlaceholderColor="Black" 
-               BackgroundColor="AliceBlue" 
-               ClearButtonVisibility="WhileEditing" 
-               Margin="30, 0, 30, 5"/>
+                   Placeholder="Senha" 
+                   IsPassword="True"
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
 
         <Button Text="Logar" 
-                BackgroundColor="Green" 
-                FontFamily="" 
-                FontSize="15"
-                Margin="210, 30 , 30, 0"/>
+                    BackgroundColor="Green" 
+                    FontFamily="" 
+                    FontSize="15"
+                    Margin="30, 0 , 30, 0"/>
+
+        <Label Text="ou"
+                   FontSize="20"
+                   TextColor="Black"
+                   HorizontalOptions="Center"/>
 
         <Button Text="Fazer Cadastro" 
-                BackgroundColor="Green" 
-                FontFamily="" 
-                FontSize="15"
-                Margin="30, -54 , 210, 0"
-                Clicked="FazerCadastroO"/>
+                    BackgroundColor="Green" 
+                    FontFamily="" 
+                    FontSize="15"
+                    Margin="30, 0 , 30, 0"
+                    Clicked="FazerCadastroO"/>
+
+        <Button Text="Esqueceu sua senha?"
+                    TextColor="Black"
+                    BackgroundColor="White"
+                    FontSize="15"
+                    Margin="30, 0, 30, 0"/>
+        <!--Clicked="none"-->
     </StackLayout>
 </ContentPage>

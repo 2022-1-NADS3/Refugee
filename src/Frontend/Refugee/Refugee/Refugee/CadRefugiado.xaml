@@ -3,74 +3,258 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Refugee.CadRefugiado"
              BackgroundColor="White">
+    <ScrollView>
+        <StackLayout>
+            <Image Source="logo.png" 
+                   Margin="30, 30 , 30, 0"/>
+        
+            <Label Text="Cadastro Refugiado" 
+                   TextColor="Black" 
+                   HorizontalOptions="CenterAndExpand" 
+                   VerticalOptions="Center" 
+                   FontSize="24"/>
+        
+            <Line X1="380"
+                Y1="0"
+                X2="30"
+                Y2="0"
+                Stroke="Black" VerticalOptions="Center" />
+            <Label Text="Nome Completo" 
+                   TextColor="Black" 
+                   FontSize="20"  Margin="30, 0, 30, 5"/>
+        
+            <Entry x:Name="Nome" 
+                   Placeholder="Informe seu nome completo" 
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
+        
+            <Label Text="Nome Social" 
+                   TextColor="Black" 
+                   FontSize="20"  
+                   Margin="30, 0, 30, 5"/>
+        
+            <Entry x:Name="NomeSocial" 
+                   Placeholder="Informe seu nome social" 
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
+        
+            <Label Text="Data de Nacimento"
+                   TextColor="Black" 
+                   FontSize="20"  
+                   Margin="30, 0, 30, 5"/>
+        
+            <DatePicker x:Name="CampoData"
+                        Format="D"
+                        Margin="30, 0, 30, 5"
+                        TextColor="Black"
+                        FontSize="17"
+                        BackgroundColor="AliceBlue"/>
 
-    <StackLayout>
-        <Image Source="logo.png" 
-               Margin="30, 100 , 30, 0"/>
-        
-        <Label Text="Cadastro Refugiado" 
-               TextColor="Black" 
-               HorizontalOptions="CenterAndExpand" 
-               VerticalOptions="Center" 
-               FontSize="24"/>
-        
-        <Line X1="380"
-            Y1="0"
-            X2="30"
-            Y2="0"
-            Stroke="Black" VerticalOptions="Center" />
-        <Label Text="Nome Completo" 
-               TextColor="Black" 
-               FontSize="20"  Margin="30, 0, 30, 5"/>
-        
-        <Entry x:Name="Nome" 
-               Placeholder="Informe seu nome completo" 
-               TextColor="Black" 
-               PlaceholderColor="Black" 
-               BackgroundColor="AliceBlue" 
-               ClearButtonVisibility="WhileEditing" 
-               Margin="30, 0, 30, 5"/>
-        
-        <Label Text="Nome Social" 
-               TextColor="Black" 
-               FontSize="20"  
-               Margin="30, 0, 30, 5"/>
-        
-        <Entry x:Name="NomeSocial" 
-               Placeholder="Informe seu nome social" 
-               TextColor="Black" 
-               PlaceholderColor="Black" 
-               BackgroundColor="AliceBlue" 
-               ClearButtonVisibility="WhileEditing" 
-               Margin="30, 0, 30, 5"/>
-        
-        <Label Text="Data de Nacimento"
-               TextColor="Black" 
-               FontSize="20"  
-               Margin="30, 0, 30, 5"/>
-        
-        <DatePicker x:Name="CampoData"
-                    Format="D"
-                    Margin="30, 0, 30, 5"
-                    TextColor="Black"
-                    FontSize="17"
-                    BackgroundColor="AliceBlue"/>
+            <Label Text="Sexo" 
+                   TextColor="Black" 
+                   FontSize="20"  
+                   Margin="30, 0, 30, 5"/>
 
-        <Button Text="Finalizar Cadastro" 
-                BackgroundColor="Green" 
-                FontFamily="" 
-                FontSize="15"
-                Margin="210, 30 , 30, 0"
-                Clicked="TenhoCadastroR"/>
+            <Entry x:Name="Sexo" 
+                   Placeholder="Informe sua sexo" 
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
 
-        <Button Text="Já sou cadastrado" 
-                BackgroundColor="Green" 
-                FontFamily="" 
-                FontSize="15"
-                Margin="30, -54 , 210, 0"
-                Clicked="TenhoCadastroR"/>
+            <Label Text="Genêro" 
+                   TextColor="Black" 
+                   FontSize="20"  
+                   Margin="30, 0, 30, 5"/>
+
+            <Entry x:Name="Genero" 
+                   Placeholder="Informe seu genêro" 
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
+        
+            <Label Text="País" 
+                   TextColor="Black" 
+                   FontSize="20"  
+                   Margin="30, 0, 30, 5"/>
+
+            <Entry x:Name="Pais" 
+                   Placeholder="Informe seu país natal" 
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
+        
+            <Label Text="Idiomas" 
+                   TextColor="Black" 
+                   FontSize="20"  
+                   Margin="30, 0, 30, 5"/>
+
+            <Entry x:Name="Idioma" 
+                   Placeholder="Informe seus idiomas" 
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
+
+            <Label Text="Estado Civil" 
+                   TextColor="Black" 
+                   FontSize="20"  
+                   Margin="30, 0, 30, 5"/>
+
+            <Entry x:Name="estadocivil" 
+                   Placeholder="informe seu estado civil" 
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
+
+            <Label Text="Nº de filhos" 
+                   TextColor="Black" 
+                   FontSize="20"  
+                   Margin="30, 0, 30, 5"/>
+
+            <Entry x:Name="NdeFilhos" 
+                   Placeholder="Informe sua quantidades de filhos" 
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
+
+            <Label Text="Telefone" 
+                   TextColor="Black" 
+                   FontSize="20"  
+                   Margin="30, 0, 30, 5"/>
+
+            <Entry x:Name="Telefone" 
+                   Placeholder="Informe seu número de celular" 
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
+
+            <Label Text="Profissão" 
+                   TextColor="Black" 
+                   FontSize="20"  
+                   Margin="30, 0, 30, 5"/>
+
+            <Entry x:Name="Profissao" 
+                   Placeholder="Informe sua profissão" 
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
+
+            <Label Text="Formação" 
+                   TextColor="Black" 
+                   FontSize="20"  
+                   Margin="30, 0, 30, 5"/>
+
+            <Entry x:Name="Formacao" 
+                   Placeholder="Informe sua formação academica" 
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
+
+            <Label Text="Deficiência" 
+                   TextColor="Black" 
+                   FontSize="20"  
+                   Margin="30, 0, 30, 5"/>
+
+            <Entry x:Name="Deficiencia" 
+                   Placeholder="Se possuir informe" 
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
+
+            <Label Text="Nº de identificação" 
+                   TextColor="Black" 
+                   FontSize="20"  
+                   Margin="30, 0, 30, 5"/>
+
+            <Entry x:Name="NdeIfentificacao" 
+                   Placeholder="Informe seu Nº de identificação" 
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
+
+            <Label Text="Email" 
+                   TextColor="Black" 
+                   FontSize="20"  
+                   Margin="30, 0, 30, 5"/>
+
+            <Entry x:Name="Email" 
+                   Placeholder="Informe seu Email" 
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
+
+            <Label Text="Senha" 
+                   TextColor="Black" 
+                   FontSize="20"  
+                   Margin="30, 0, 30, 5"/>
+
+            <Entry x:Name="Senha" 
+                   Placeholder="Crie uma senha"
+                   IsPassword="True"
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
+
+            <Label Text="Confirme sua Senha" 
+                   TextColor="Black" 
+                   FontSize="20"  
+                   Margin="30, 0, 30, 5"/>
+
+            <Entry x:Name="ConfirmeSenha" 
+                   Placeholder="Repita a senha"
+                   IsPassword="True"
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
+            
+            <Button Text="Finalizar Cadastro" 
+                    BackgroundColor="Green" 
+                    FontFamily="" 
+                    FontSize="15"
+                    Margin="210, 30 , 30, 0"
+                    Clicked="TenhoCadastroR"/>
+
+            <Button Text="Já sou cadastrado" 
+                    BackgroundColor="Green" 
+                    FontFamily="" 
+                    FontSize="15"
+                    Margin="30, -54 , 210, 30"
+                    Clicked="TenhoCadastroR"/>
 
 
-    </StackLayout>
-
+        </StackLayout>
+    </ScrollView>
 </ContentPage>
