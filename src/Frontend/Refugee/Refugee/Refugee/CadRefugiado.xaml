@@ -61,40 +61,269 @@
                    FontSize="20"  
                    Margin="30, 0, 30, 5"/>
 
-            <Entry x:Name="Sexo" 
-                   Placeholder="Informe sua sexo" 
-                   TextColor="Black" 
-                   PlaceholderColor="Black" 
-                   BackgroundColor="AliceBlue" 
-                   ClearButtonVisibility="WhileEditing" 
-                   Margin="30, 0, 30, 5"/>
+            <Picker x:Name="Sexos" Title="Selecione o seu sexo" 
+                    TitleColor="WhiteSmoke" 
+                    Margin="30, 0, 30, 5" 
+                    FontSize="18" 
+                    BackgroundColor="AliceBlue" 
+                    TextColor="Black">
+
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Masculino</x:String>
+                        <x:String>Feminino</x:String>
+                        <x:String>Outros</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
 
             <Label Text="Genêro" 
                    TextColor="Black" 
                    FontSize="20"  
                    Margin="30, 0, 30, 5"/>
 
-            <Entry x:Name="Genero" 
-                   Placeholder="Informe seu genêro" 
-                   TextColor="Black" 
-                   PlaceholderColor="Black" 
-                   BackgroundColor="AliceBlue" 
-                   ClearButtonVisibility="WhileEditing" 
-                   Margin="30, 0, 30, 5"/>
+            <Picker x:Name="Generos" Title="Selecione o seu Genêro" 
+                    TitleColor="WhiteSmoke" 
+                    Margin="30, 0, 30, 5" 
+                    FontSize="18" 
+                    BackgroundColor="AliceBlue" 
+                    TextColor="Black">
+
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Hetero Top</x:String>
+                        <x:String>Lebisca</x:String>
+                        <x:String>Gaymer</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
         
             <Label Text="País" 
                    TextColor="Black" 
                    FontSize="20"  
                    Margin="30, 0, 30, 5"/>
 
-            <Entry x:Name="Pais" 
-                   Placeholder="Informe seu país natal" 
-                   TextColor="Black" 
-                   PlaceholderColor="Black" 
-                   BackgroundColor="AliceBlue" 
-                   ClearButtonVisibility="WhileEditing" 
-                   Margin="30, 0, 30, 5"/>
-        
+            <Picker x:Name="Paises" Title="Selecione seu País" 
+                    TitleColor="WhiteSmoke" 
+                    Margin="30, 0, 30, 5" 
+                    FontSize="18" 
+                    BackgroundColor="AliceBlue" 
+                    TextColor="Black">
+
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Abecásia</x:String>
+                        <x:String>Afeganistão</x:String>
+                        <x:String>África do Sul</x:String>
+                        <x:String>Albânia</x:String>
+                        <x:String>Alemanha</x:String>
+                        <x:String>Alemanha</x:String>
+                        <x:String>Andorra</x:String>
+                        <x:String>Angola</x:String>
+                        <x:String>Arábia Saudita</x:String>
+                        <x:String>Argélia</x:String>
+                        <x:String>Argentina</x:String>
+                        <x:String>Armênia</x:String>
+                        <x:String>Austrália</x:String>
+                        <x:String>Áustria</x:String>
+                        <x:String>Azerbaijão</x:String>
+                        <x:String>Bahamas</x:String>
+                        <x:String>Barém</x:String>
+                        <x:String>Bangladesh</x:String>
+                        <x:String>Barbados</x:String>
+                        <x:String>Bélgica</x:String>
+                        <x:String>Belize</x:String>
+                        <x:String>Bielorrússia</x:String>
+                        <x:String>Bolívia</x:String>
+                        <x:String>Bósnia</x:String>
+                        <x:String>Botswana</x:String>
+                        <x:String>Brasil</x:String>
+                        <x:String>Brunei</x:String>
+                        <x:String>Bulgária</x:String>
+                        <x:String>Burkina Faso</x:String>
+                        <x:String>Burundi</x:String>
+                        <x:String>Butão</x:String>
+                        <x:String>Cabo Verde</x:String>
+                        <x:String>Camarões</x:String>
+                        <x:String>Camboja</x:String>
+                        <x:String>Canadá</x:String>
+                        <x:String>Catar</x:String>
+                        <x:String>Cazaquistão</x:String>
+                        <x:String>Chade</x:String>
+                        <x:String>Chile</x:String>
+                        <x:String>China</x:String>
+                        <x:String>Chipre</x:String>
+                        <x:String>Cingapura</x:String>
+                        <x:String>Colômbia</x:String>
+                        <x:String>Comores</x:String>
+                        <x:String>Congo</x:String>
+                        <x:String>Coreia do Norte</x:String>
+                        <x:String>Coreia do Sul</x:String>
+                        <x:String>Costa do Marfim</x:String>
+                        <x:String>Costa Rica</x:String>
+                        <x:String>Croácia</x:String>
+                        <x:String>Cuba</x:String>
+                        <x:String>Dinamarca</x:String>
+                        <x:String>Djibouti</x:String>
+                        <x:String>Dominica</x:String>
+                        <x:String>Egito</x:String>
+                        <x:String>El Salvador</x:String>
+                        <x:String>Emirados Árabes Unidos</x:String>
+                        <x:String>Equador</x:String>
+                        <x:String>Eritreia</x:String>
+                        <x:String>Escócia</x:String>
+                        <x:String>Eslováquia</x:String>
+                        <x:String>Eslovênia</x:String>
+                        <x:String>Espanha</x:String>
+                        <x:String>Estados Federados da Micronésia</x:String>
+                        <x:String>Estônia</x:String>
+                        <x:String>Eswatini</x:String>
+                        <x:String>Etiópia</x:String>
+                        <x:String>Fiji</x:String>
+                        <x:String>Filipinas</x:String>
+                        <x:String>Finlândia</x:String>
+                        <x:String>França</x:String>
+                        <x:String>Gabão</x:String>
+                        <x:String>Gâmbia</x:String>
+                        <x:String>Gana</x:String>
+                        <x:String>Geórgia</x:String>
+                        <x:String>Granada</x:String>
+                        <x:String>Grécia</x:String>
+                        <x:String>Guatemala</x:String>
+                        <x:String>Guiana</x:String>
+                        <x:String>Guiné</x:String>
+                        <x:String>Guiné-Bissau</x:String>
+                        <x:String>Guiné Equatorial</x:String>
+                        <x:String>Haiti</x:String>
+                        <x:String>Holanda</x:String>
+                        <x:String>Honduras</x:String>
+                        <x:String>Hungria</x:String>
+                        <x:String>Iêmen</x:String>
+                        <x:String>Índia</x:String>
+                        <x:String>Indonésia</x:String>
+                        <x:String>Inglaterra</x:String>
+                        <x:String>Irã</x:String>
+                        <x:String>Iraque</x:String>
+                        <x:String>Irlanda do Norte</x:String>
+                        <x:String>Irlanda</x:String>
+                        <x:String>Islândia</x:String>
+                        <x:String>Israel</x:String>
+                        <x:String>Itália</x:String>
+                        <x:String>Jamaica</x:String>
+                        <x:String>Japão</x:String>
+                        <x:String>Jordânia</x:String>
+                        <x:String>Kiribati</x:String>
+                        <x:String>Kosovo</x:String>
+                        <x:String>Kuwait</x:String>
+                        <x:String>Laos</x:String>
+                        <x:String>Lesoto</x:String>
+                        <x:String>Letônia</x:String>
+                        <x:String>Líbano</x:String>
+                        <x:String>Libéria</x:String>
+                        <x:String>Líbia</x:String>
+                        <x:String>Liechtenstein</x:String>
+                        <x:String>Lituânia</x:String>
+                        <x:String>Luxemburgo</x:String>
+                        <x:String>Macedônia do Norte</x:String>
+                        <x:String>Madagascar</x:String>
+                        <x:String>Malásia</x:String>
+                        <x:String>Malawi</x:String>
+                        <x:String>Maldivas</x:String>
+                        <x:String>Mali</x:String>
+                        <x:String>Malta</x:String>
+                        <x:String>Marrocos</x:String>
+                        <x:String>Marshall</x:String>
+                        <x:String>Maurícia</x:String>
+                        <x:String>Mauritânia</x:String>
+                        <x:String>México</x:String>
+                        <x:String>Mianmar</x:String>
+                        <x:String>Micronésia</x:String>
+                        <x:String>Moçambique</x:String>
+                        <x:String>Moldávia</x:String>
+                        <x:String>Mônaco</x:String>
+                        <x:String>Mongólia</x:String>
+                        <x:String>Montenegro</x:String>
+                        <x:String>Namíbia</x:String>
+                        <x:String>Nauru</x:String>
+                        <x:String>Nepal</x:String>
+                        <x:String>Nicarágua</x:String>
+                        <x:String>Níger</x:String>
+                        <x:String>Nigéria</x:String>
+                        <x:String>Noruega</x:String>
+                        <x:String>Nova Zelândia</x:String>
+                        <x:String>Omã</x:String>
+                        <x:String>Ossétia do Sul</x:String>
+                        <x:String>País de Gales</x:String>
+                        <x:String>Países Baixos</x:String>
+                        <x:String>Palau</x:String>
+                        <x:String>Palestina</x:String>
+                        <x:String>Panamá</x:String>
+                        <x:String>Papua-Nova Guiné</x:String>
+                        <x:String>Paquistão</x:String>
+                        <x:String>Paraguai</x:String>
+                        <x:String>Peru</x:String>
+                        <x:String>Polônia</x:String>
+                        <x:String>Portugal</x:String>
+                        <x:String>Quênia</x:String>
+                        <x:String>Quirguistão</x:String>
+                        <x:String>Quiribati</x:String>
+                        <x:String>Reino Unido</x:String>
+                        <x:String>República Árabe Saaraui</x:String>
+                        <x:String>República Centro-Africana</x:String>
+                        <x:String>República Democrática do Congo</x:String>
+                        <x:String>República do Congo</x:String>
+                        <x:String>República Dominicana</x:String>
+                        <x:String>República Tcheca</x:String>
+                        <x:String>República Turca de Chipre do Norte</x:String>
+                        <x:String>Romênia</x:String>
+                        <x:String>Ruanda</x:String>
+                        <x:String>Rússia</x:String>
+                        <x:String>Salomão</x:String>
+                        <x:String>Samoa</x:String>
+                        <x:String>San Marino</x:String>
+                        <x:String>Santa Lúcia</x:String>
+                        <x:String>São Cristóvão e Névis</x:String>
+                        <x:String>São Tomé e Príncipe</x:String>
+                        <x:String>São Vicente e Granadinas</x:String>
+                        <x:String>Senegal</x:String>
+                        <x:String>Serra Leoa</x:String>
+                        <x:String>Sérvia</x:String>
+                        <x:String>Seychelles</x:String>
+                        <x:String>Síria</x:String>
+                        <x:String>Somália</x:String>
+                        <x:String>Sri Lanka</x:String>
+                        <x:String>Suazilândia</x:String>
+                        <x:String>Sudão do Sul</x:String>
+                        <x:String>Sudão</x:String>
+                        <x:String>Suécia</x:String>
+                        <x:String>Suíça</x:String>
+                        <x:String>Suriname</x:String>
+                        <x:String>Tailândia</x:String>
+                        <x:String>Taiwan</x:String>
+                        <x:String>Tajiquistão</x:String>
+                        <x:String>Tanzânia</x:String>
+                        <x:String>Timor-Leste</x:String>
+                        <x:String>Togo</x:String>
+                        <x:String>Tonga</x:String>
+                        <x:String>Trinidad e Tobago</x:String>
+                        <x:String>Tunísia</x:String>
+                        <x:String>Turcomenistão</x:String>
+                        <x:String>Turquia</x:String>
+                        <x:String>Tuvalu</x:String>
+                        <x:String>Ucrânia</x:String>
+                        <x:String>Uganda</x:String>
+                        <x:String>Uruguai</x:String>
+                        <x:String>Uzbequistão</x:String>
+                        <x:String>Vanuatu</x:String>
+                        <x:String>Vaticano</x:String>
+                        <x:String>Venezuela</x:String>
+                        <x:String>Vietnã</x:String>
+                        <x:String>Zâmbia</x:String>
+                        <x:String>Zimbábue</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
             <Label Text="Idiomas" 
                    TextColor="Black" 
                    FontSize="20"  
@@ -113,26 +342,44 @@
                    FontSize="20"  
                    Margin="30, 0, 30, 5"/>
 
-            <Entry x:Name="estadocivil" 
-                   Placeholder="informe seu estado civil" 
-                   TextColor="Black" 
-                   PlaceholderColor="Black" 
-                   BackgroundColor="AliceBlue" 
-                   ClearButtonVisibility="WhileEditing" 
-                   Margin="30, 0, 30, 5"/>
+            <Picker x:Name="Estadocivil" Title="Informe seu estado civil" 
+                    TitleColor="WhiteSmoke" 
+                    Margin="30, 0, 30, 5" 
+                    FontSize="18" 
+                    BackgroundColor="AliceBlue" 
+                    TextColor="Black">
+
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Solterio</x:String>
+                        <x:String>Casado</x:String>
+                        <x:String>Divorciado</x:String>
+                        <x:String>Viúvo</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
 
             <Label Text="Nº de filhos" 
                    TextColor="Black" 
                    FontSize="20"  
                    Margin="30, 0, 30, 5"/>
 
-            <Entry x:Name="NdeFilhos" 
-                   Placeholder="Informe sua quantidades de filhos" 
-                   TextColor="Black" 
-                   PlaceholderColor="Black" 
-                   BackgroundColor="AliceBlue" 
-                   ClearButtonVisibility="WhileEditing" 
-                   Margin="30, 0, 30, 5"/>
+            <Picker x:Name="NdeFilhos" Title="Quantos filhos?" 
+                    TitleColor="WhiteSmoke" 
+                    Margin="30, 0, 30, 5" 
+                    FontSize="18" 
+                    BackgroundColor="AliceBlue" 
+                    TextColor="Black">
+
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Um</x:String>
+                        <x:String>Dois</x:String>
+                        <x:String>Três</x:String>
+                        <x:String>Quatro ou mais</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
 
             <Label Text="Telefone" 
                    TextColor="Black" 
@@ -165,13 +412,24 @@
                    FontSize="20"  
                    Margin="30, 0, 30, 5"/>
 
-            <Entry x:Name="Formacao" 
-                   Placeholder="Informe sua formação academica" 
-                   TextColor="Black" 
-                   PlaceholderColor="Black" 
-                   BackgroundColor="AliceBlue" 
-                   ClearButtonVisibility="WhileEditing" 
-                   Margin="30, 0, 30, 5"/>
+            <Picker x:Name="Formacao" Title="Informe seu nivel de escolaridade" 
+                    TitleColor="WhiteSmoke" 
+                    Margin="30, 0, 30, 5" 
+                    FontSize="18" 
+                    BackgroundColor="AliceBlue" 
+                    TextColor="Black">
+
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Ensino Fundamental Inompleto</x:String>
+                        <x:String>Ensino Fundamental Completo</x:String>
+                        <x:String>​Ensino Médio Incompleto</x:String>
+                        <x:String>​Ensino Médio Completo</x:String>
+                        <x:String>Ensino Superior Incompleto</x:String>
+                        <x:String>Ensino Superior Completo</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
 
             <Label Text="Deficiência" 
                    TextColor="Black" 
@@ -205,7 +463,7 @@
                    Margin="30, 0, 30, 5"/>
 
             <Entry x:Name="Email" 
-                   Placeholder="Informe seu Email" 
+                   Placeholder="exemplo@gmail.com" 
                    TextColor="Black" 
                    PlaceholderColor="Black" 
                    BackgroundColor="AliceBlue" 
