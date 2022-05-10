@@ -11,7 +11,11 @@ namespace Refugee
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginRefugiado : ContentPage
-    {
+    {   
+        private void Logar(object sender, EventArgs e)
+        {
+            Task task = Navigation.PushAsync(new TelaRefugiado());
+        }
         private void FazerCadastroR(object sender, EventArgs e)
         {
             Navigation.PushAsync(new CadRefugiado());

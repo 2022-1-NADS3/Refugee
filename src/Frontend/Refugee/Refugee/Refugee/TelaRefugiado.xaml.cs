@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace Refugee
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class TelaRefugiado : ContentPage
+    public partial class TelaRefugiado : Shell
     {
         public TelaRefugiado()
         {

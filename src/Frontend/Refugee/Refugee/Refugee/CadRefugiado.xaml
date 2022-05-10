@@ -61,8 +61,9 @@
                    FontSize="20"  
                    Margin="30, 0, 30, 5"/>
 
-            <Picker x:Name="Sexos" Title="Selecione o seu sexo" 
-                    TitleColor="WhiteSmoke" 
+            <Picker x:Name="Sexos" 
+                    Title="Selecione o seu sexo" 
+                    TitleColor="Black" 
                     Margin="30, 0, 30, 5" 
                     FontSize="18" 
                     BackgroundColor="AliceBlue" 
