@@ -4,6 +4,15 @@
              x:Class="Refugee.TelaRefugiado">
     
     <StackLayout>
-        
+        <Label Text="JSON was Here!" x:Name="json"/>
+        <Button Text="Chama o Json!" Clicked="Dados"/>
+        <Label Text="Nome do usuario"/>
+        <Label Text="NNNNN" x:Name="userName"/>
+        <Label Text="Sobrenome do usuario"/>
+        <Label Text="SSSSS" x:Name="sureName"/>
+        <Label Text="Idade do usuario"/>
+        <Label Text="NNNNN" x:Name="userAge"/>
+        <Label Text="Altura do usuario"/>
+        <Label Text="NNNNN" x:Name="userHeight"/>
     </StackLayout>
 </ContentPage>

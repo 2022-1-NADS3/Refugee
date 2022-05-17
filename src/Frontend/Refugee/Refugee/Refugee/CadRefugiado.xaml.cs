@@ -12,6 +12,7 @@ namespace Refugee
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CadRefugiado : ContentPage
     {
+
         private void TenhoCadastroR(object sender, EventArgs e)
         {
             Navigation.PushAsync(new LoginRefugiado());
