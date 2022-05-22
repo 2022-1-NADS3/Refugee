@@ -14,7 +14,7 @@ namespace Refugee
     {
         private void Logar(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new TelaRefugiado());
+            Navigation.PushAsync(new PaginaRefugiado());
         }
         private void FazerCadastroR(object sender, EventArgs e)
         {
