@@ -42,7 +42,8 @@
                     BackgroundColor="Green" 
                     FontFamily="" 
                     FontSize="15"
-                    Margin="30, 0 , 30, 0"/>
+                    Margin="30, 0 , 30, 0"
+                    Clicked="Logar"/>
 
             <Label Text="ou"
                    FontSize="20"
