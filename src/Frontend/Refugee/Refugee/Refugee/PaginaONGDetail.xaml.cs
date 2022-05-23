@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace Refugee
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class TelaONG : ContentPage
+    public partial class PaginaONGDetail : ContentPage
     {
-        public TelaONG()
+        public PaginaONGDetail()
         {
             InitializeComponent();
         }

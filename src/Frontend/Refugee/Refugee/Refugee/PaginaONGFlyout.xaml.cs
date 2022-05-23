@@ -13,29 +13,32 @@ using Xamarin.Forms.Xaml;
 namespace Refugee
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class PaginaRefugiadoFlyout : ContentPage
+    public partial class PaginaONGFlyout : ContentPage
     {
         public ListView ListView;
 
-        public PaginaRefugiadoFlyout()
+        public PaginaONGFlyout()
         {
             InitializeComponent();
 
-            BindingContext = new PaginaRefugiadoFlyoutViewModel();
+            BindingContext = new PaginaONGFlyoutViewModel();
             ListView = MenuItemsListView;
         }
 
-        private class PaginaRefugiadoFlyoutViewModel : INotifyPropertyChanged
+        private class PaginaONGFlyoutViewModel : INotifyPropertyChanged
         {
-            public ObservableCollection<PaginaRefugiadoFlyoutMenuItem> MenuItems { get; set; }
+            public ObservableCollection<PaginaONGFlyoutMenuItem> MenuItems { get; set; }
 
-            public PaginaRefugiadoFlyoutViewModel()
+            public PaginaONGFlyoutViewModel()
             {
-                MenuItems = new ObservableCollection<PaginaRefugiadoFlyoutMenuItem>(new[]
+                MenuItems = new ObservableCollection<PaginaONGFlyoutMenuItem>(new[]
                 {
-                    new PaginaRefugiadoFlyoutMenuItem { Id = 0, Title = "Perfil", Image = "perfil.png"},
-                    new PaginaRefugiadoFlyoutMenuItem { Id = 1, Title = "Sair", Image = "sair.png"},
-                   });
+                    new PaginaONGFlyoutMenuItem { Id = 0, Title = "Page 1" },
+                    new PaginaONGFlyoutMenuItem { Id = 1, Title = "Page 2" },
+                    new PaginaONGFlyoutMenuItem { Id = 2, Title = "Page 3" },
+                    new PaginaONGFlyoutMenuItem { Id = 3, Title = "Page 4" },
+                    new PaginaONGFlyoutMenuItem { Id = 4, Title = "Page 5" },
+                });
             }
 
             #region INotifyPropertyChanged Implementation

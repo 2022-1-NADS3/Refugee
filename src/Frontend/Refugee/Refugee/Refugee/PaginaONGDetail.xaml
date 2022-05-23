@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Refugee.PaginaRefugiadoDetail"
+             x:Class="Refugee.PaginaONGDetail"
              BackgroundColor="White"
              Title="Refugee">
   <StackLayout Padding="10">
-        <Button Text="Teste de servidor" Clicked="teste"/>
-    </StackLayout>
+    <Label Text="Olá. você está na pagina da ong" TextColor="Black" FontSize="Large"/>
+  </StackLayout>
 </ContentPage>
