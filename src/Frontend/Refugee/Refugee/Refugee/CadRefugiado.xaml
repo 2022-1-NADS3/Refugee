@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Refugee.CadRefugiado"
-             BackgroundColor="White">
+             BackgroundColor="White"
+             NavigationPage.HasNavigationBar="False">
     <ScrollView>
         <StackLayout>
             <Image Source="logo.png" 
@@ -485,20 +486,6 @@
                    ClearButtonVisibility="WhileEditing" 
                    Margin="30, 0, 30, 5"/>
 
-            <Label Text="Confirme sua Senha" 
-                   TextColor="Black" 
-                   FontSize="15"    
-                   Margin="30, 0, 30, 5"/>
-
-            <Entry x:Name="ConfirmeSenha" 
-                   Placeholder="Repita a senha"
-                   IsPassword="True"
-                   TextColor="Black" 
-                   PlaceholderColor="Black" 
-                   BackgroundColor="AliceBlue" 
-                   ClearButtonVisibility="WhileEditing" 
-                   Margin="30, 0, 30, 5"/>
-            
             <Button Text="Finalizar Cadastro" 
                     BackgroundColor="Green" 
                     FontFamily="" 

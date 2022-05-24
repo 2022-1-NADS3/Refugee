@@ -23,12 +23,19 @@ namespace Refugee
             var item = e.SelectedItem as PaginaONGFlyoutMenuItem;
             if (item == null)
                 return;
+            if(item.Title == "EditarDadosONG")
+            {
+                Navigation.PushAsync(new TelaRefugiado());
+            }
+            else if(item.Title == "Sair")
+            {
+                Navigation.PushAsync(new MainPage());
+            }
+            //var page = (Page)Activator.CreateInstance(item.TargetType);
+            //page.Title = item.Title;
 
-            var page = (Page)Activator.CreateInstance(item.TargetType);
-            page.Title = item.Title;
-
-            Detail = new NavigationPage(page);
-            IsPresented = false;
+            //Detail = new NavigationPage(page);
+            //IsPresented = false;
 
             FlyoutPage.ListView.SelectedItem = null;
         }

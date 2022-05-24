@@ -33,11 +33,8 @@ namespace Refugee
             {
                 MenuItems = new ObservableCollection<PaginaONGFlyoutMenuItem>(new[]
                 {
-                    new PaginaONGFlyoutMenuItem { Id = 0, Title = "Page 1" },
-                    new PaginaONGFlyoutMenuItem { Id = 1, Title = "Page 2" },
-                    new PaginaONGFlyoutMenuItem { Id = 2, Title = "Page 3" },
-                    new PaginaONGFlyoutMenuItem { Id = 3, Title = "Page 4" },
-                    new PaginaONGFlyoutMenuItem { Id = 4, Title = "Page 5" },
+                    new PaginaONGFlyoutMenuItem { Id = 0, Title = "EditarDadosONG" },
+                    new PaginaONGFlyoutMenuItem { Id = 1, Title = "Sair" },
                 });
             }
 

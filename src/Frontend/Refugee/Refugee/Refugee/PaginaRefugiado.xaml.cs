@@ -24,11 +24,20 @@ namespace Refugee
             if (item == null)
                 return;
 
-            var page = (Page)Activator.CreateInstance(item.TargetType);
-            page.Title = item.Title;
+            if(item.Title == "Perfil")
+            {
+                Navigation.PushAsync(new PerfilRefugiado());
+            }
+            else if (item.Title == "Sair")
+            {
+                Navigation.PushAsync(new MainPage());
+            }
 
-            Detail = new NavigationPage(page);
-            IsPresented = false;
+            //var page = (Page)Activator.CreateInstance(item.TargetType);
+            //page.Title = item.Title;
+
+            //Detail = new NavigationPage(page);
+            //IsPresented = false;
 
             FlyoutPage.ListView.SelectedItem = null;
         }

@@ -2,7 +2,8 @@
 <FlyoutPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Refugee.PaginaONG"
-             xmlns:pages="clr-namespace:Refugee">
+             xmlns:pages="clr-namespace:Refugee"
+             NavigationPage.HasNavigationBar="False">
   <FlyoutPage.Flyout>
     <pages:PaginaONGFlyout x:Name="FlyoutPage" />
   </FlyoutPage.Flyout>

@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Refugee.CadONG"
-             BackgroundColor="White">
+             BackgroundColor="White"
+             NavigationPage.HasNavigationBar="False">
 
     <ScrollView>
         <StackLayout>
@@ -138,6 +139,33 @@
                    ClearButtonVisibility="WhileEditing" 
                    Margin="30, 0, 30, 5"/>
 
+            <Label Text="Email" 
+                   TextColor="Black" 
+                   FontSize="15"    
+                   Margin="30, 0, 30, 5"/>
+
+            <Entry x:Name="Email" 
+                   Placeholder="exemplo@gmail.com" 
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
+
+            <Label Text="Senha" 
+                   TextColor="Black" 
+                   FontSize="15"    
+                   Margin="30, 0, 30, 5"/>
+
+            <Entry x:Name="Senha" 
+                   Placeholder="Crie uma senha"
+                   IsPassword="True"
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/> 
+
             <Button Text="Finalizar Cadastro" 
                     BackgroundColor="Green" 
                     FontFamily="" 
@@ -149,7 +177,7 @@
                     BackgroundColor="Green" 
                     FontFamily="" 
                     FontSize="15"
-                    Margin="30, -54 , 210, 0"
+                    Margin="30, -54 , 210, 30"
                     Clicked="TenhoCadastroO"/>
         </StackLayout>
     </ScrollView>
