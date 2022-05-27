@@ -64,7 +64,7 @@
                    Margin="30, 0, 30, 5"/>
 
             <Picker x:Name="Sexos" Title="Selecione o seu sexo" 
-                    TitleColor="WhiteSmoke" 
+                    TitleColor="Black" 
                     Margin="30, 0, 30, 5" 
                     FontSize="18" 
                     BackgroundColor="AliceBlue" 
@@ -85,7 +85,7 @@
                    Margin="30, 0, 30, 5"/>
 
             <Picker x:Name="Generos" Title="Selecione o seu Genêro" 
-                    TitleColor="WhiteSmoke" 
+                    TitleColor="Black" 
                     Margin="30, 0, 30, 5" 
                     FontSize="18" 
                     BackgroundColor="AliceBlue" 
@@ -93,9 +93,11 @@
 
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
-                        <x:String>Hetero Top</x:String>
-                        <x:String>Lebisca</x:String>
-                        <x:String>Gaymer</x:String>
+                        <x:String>Heterossexual</x:String>
+                        <x:String>Homossexual</x:String>
+                        <x:String>Bissexual</x:String>
+                        <x:String>Assexual</x:String>
+                        <x:String>Pansexual</x:String>
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
@@ -106,7 +108,7 @@
                    Margin="30, 0, 30, 5"/>
 
             <Picker x:Name="Paises" Title="Selecione seu País" 
-                    TitleColor="WhiteSmoke" 
+                    TitleColor="Black" 
                     Margin="30, 0, 30, 5" 
                     FontSize="18" 
                     BackgroundColor="AliceBlue" 
@@ -345,7 +347,7 @@
                    Margin="30, 0, 30, 5"/>
 
             <Picker x:Name="Estadocivil" Title="Informe seu estado civil" 
-                    TitleColor="WhiteSmoke" 
+                    TitleColor="Black" 
                     Margin="30, 0, 30, 5" 
                     FontSize="18" 
                     BackgroundColor="AliceBlue" 
@@ -367,7 +369,7 @@
                    Margin="30, 0, 30, 5"/>
 
             <Picker x:Name="NdeFilhos" Title="Quantos filhos?" 
-                    TitleColor="WhiteSmoke" 
+                    TitleColor="Black" 
                     Margin="30, 0, 30, 5" 
                     FontSize="18" 
                     BackgroundColor="AliceBlue" 
@@ -415,7 +417,7 @@
                    Margin="30, 0, 30, 5"/>
 
             <Picker x:Name="Formacao" Title="Informe seu nivel de escolaridade" 
-                    TitleColor="WhiteSmoke" 
+                    TitleColor="Black" 
                     Margin="30, 0, 30, 5" 
                     FontSize="18" 
                     BackgroundColor="AliceBlue" 
