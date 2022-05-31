@@ -12,13 +12,14 @@ namespace Refugee
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PaginaRefugiadoDetail : ContentPage
     {
-        private void teste(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new TelaRefugiado());
-        }
         public PaginaRefugiadoDetail()
         {
             InitializeComponent();
+        }
+
+        private void AbrirPaginaONG(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new PaginaONGDetail());
         }
     }
 }
