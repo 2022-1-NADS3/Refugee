@@ -22,6 +22,7 @@
                Margin="30, 0 , 30, 0"/>
         
         <Button Text="Sou Refugiado" 
+                TextColor="White"
                 BackgroundColor="Green" 
                 FontFamily=""  
                 Clicked="LoginRefugiados"
@@ -29,6 +30,7 @@
                 Margin="70, 125 , 70, 0"/>
         
         <Button Text="Sou ONG" 
+                TextColor="White"
                 BackgroundColor="Green" 
                 FontFamily=""  
                 Clicked="LoginONGs"

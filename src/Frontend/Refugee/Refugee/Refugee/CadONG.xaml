@@ -168,15 +168,17 @@
 
             <Button Text="Finalizar Cadastro" 
                     BackgroundColor="Green" 
+                    TextColor="White"
                     FontFamily="" 
-                    FontSize="15"
+                    FontSize="Micro"
                     Margin="210, 30 , 30, 0"
                     Clicked="TenhoCadastroO"/>
 
             <Button Text="Já sou cadastrado" 
                     BackgroundColor="Green" 
+                    TextColor="White"
                     FontFamily="" 
-                    FontSize="15"
+                    FontSize="Micro"
                     Margin="30, -54 , 210, 30"
                     Clicked="TenhoCadastroO"/>
         </StackLayout>

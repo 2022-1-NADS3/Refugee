@@ -4,7 +4,20 @@
              x:Class="Refugee.PaginaONGDetail"
              BackgroundColor="White"
              Title="Refugee">
-  <StackLayout Padding="10">
-    <Label Text="Olá. você está na pagina da ong" TextColor="Black" FontSize="Large"/>
-  </StackLayout>
+    <ScrollView>
+        <StackLayout>
+            <Label Text="Nome ONG" x:Name="NomwDaONG" FontSize="20" TextColor="Black" HorizontalOptions="Center"/>
+            <Line X1="380"
+                Y1="0"
+                X2="30"
+                Y2="0"
+                Stroke="Black" VerticalOptions="Center"
+                StrokeThickness="5"/>
+            <Label Text="Contado" FontSize="Title" TextColor="Black" HorizontalOptions="Center"/>
+            <StackLayout BackgroundColor="White" Padding="0,10,0,10">
+                <Label Text="Telefone" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
+                <Label Text="11992242472" x:Name="TelefoneONG" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+            </StackLayout>
+        </StackLayout>  
+    </ScrollView>
 </ContentPage>

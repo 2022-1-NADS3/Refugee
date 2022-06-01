@@ -489,17 +489,19 @@
                    Margin="30, 0, 30, 5"/>
 
             <Button Text="Finalizar Cadastro" 
+                    TextColor="White"
                     BackgroundColor="Green" 
                     FontFamily="" 
-                    FontSize="14"
+                    FontSize="Micro"
                     Margin="210, 30 , 30, 0"
                     Clicked="TenhoCadastroR"/>
 
             <Button Text="Já sou cadastrado" 
+                    TextColor="White"
                     BackgroundColor="Green" 
                     FontFamily="" 
-                    FontSize="14"
-                    Margin="30, -54 , 210, 30"
+                    FontSize="Micro"
+                    Margin="30, -54,210, 30"
                     Clicked="TenhoCadastroR"/>
 
 
