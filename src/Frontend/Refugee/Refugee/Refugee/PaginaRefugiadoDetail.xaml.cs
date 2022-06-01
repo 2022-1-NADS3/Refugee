@@ -10,16 +10,16 @@ using Xamarin.Forms.Xaml;
 namespace Refugee
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class CadRefugiado : ContentPage
+    public partial class PaginaRefugiadoDetail : ContentPage
     {
-
-        private void TenhoCadastroR(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new LoginRefugiado());
-        }
-        public CadRefugiado()
+        public PaginaRefugiadoDetail()
         {
             InitializeComponent();
+        }
+
+        private void AbrirPaginaONG(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new PaginaONGDetail());
         }
     }
 }

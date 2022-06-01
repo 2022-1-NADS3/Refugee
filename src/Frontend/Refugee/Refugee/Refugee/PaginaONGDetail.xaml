@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Refugee.PaginaONGDetail"
+             BackgroundColor="White"
+             Title ="Refugee">
+
+    <ScrollView>
+
+    <StackLayout Padding="10">
+       
+      
+        <Label Text="Minhas Informações" TextColor="Black" FontSize="Large" FontAttributes="Bold" />
+        <Label Text="ONG ABC" TextColor="Black" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Line X1="350"
+                Y1="0"
+                X2="0"
+                Y2="0"
+                Stroke="Black" VerticalOptions="Center"
+                StrokeThickness="5"/>
+
+
+            <Frame Margin="10"
+                    BorderColor="Black"
+                    CornerRadius="0"
+                    HeightRequest="150"
+                    WidthRequest="250"
+                    IsClippedToBounds="True"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center">
+                <Image Source="Splash.png"
+                            Aspect="AspectFill"
+                            Margin="-20"
+                            HeightRequest="50"
+                            WidthRequest="50"/>
+            </Frame>
+
+
+
+
+
+
+
+
+            <Label Text="Contato" TextColor="Black" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center"/>
+           
+        <Label Text="Telefone:" TextColor="Black" FontSize="Large"/>
+        <Label Text="(11) 1234-5467"  FontSize="Medium" />
+      
+      
+        <Label Text="E-mail:" TextColor="Black" FontSize="Large"/>
+        <Label Text="ongabc@hotmail.com" FontSize="Medium"/>
+      
+      
+        <Label Text="Endereço:" TextColor="Black" FontSize="Large"/>
+        <Label Text="Rua Cantagalo, 1483 - Tatuapé, São Paulo-SP, 03319-001"  FontSize="Medium"/>
+      
+      
+        <Label Text="Horário de Atendimento:" TextColor="Black" FontSize="Large"/>
+        <Label Text="Segunda á Sexta das 07:00 - 16:00" FontSize="Medium"/>
+
+
+        <Label Text="Linguas Aceitas" TextColor="Black" FontSize="Large"/>
+        <Label Text="Português" FontSize="Medium"/>
+        <Label Text="Inglês" FontSize="Medium"/>
+        <Label Text="Espanhol" FontSize="Medium"/>
+
+        <Label Text="Vagas Disponíveis" TextColor="Black" FontSize="Large"/>
+        <Label Text="3" FontSize="Large"/>
+
+    </StackLayout>
+    </ScrollView>
+</ContentPage>

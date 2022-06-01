@@ -2,20 +2,21 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Refugee.MainPage"
-             BackgroundColor="White">
+             BackgroundColor="White"
+             NavigationPage.HasNavigationBar="False">
 
     <StackLayout>
         <Image Source="logo.png" 
                Margin="30, 100 , 30, 0"/>
         
         <Label Text="Seja bem-vindo ao Refugee" 
-               FontSize="28" 
+               FontSize="20" 
                TextColor="Black" 
                HorizontalTextAlignment="Center"
                Margin="30, 125 , 30, 0"/>
         
         <Label Text="Cadastre-se já" 
-               FontSize="28" 
+               FontSize="20"
                TextColor="Black" 
                HorizontalTextAlignment="Center"
                Margin="30, 0 , 30, 0"/>
@@ -24,15 +25,15 @@
                 BackgroundColor="Green" 
                 FontFamily=""  
                 Clicked="LoginRefugiados"
-                FontSize="15"
+                FontSize="14"
                 Margin="70, 125 , 70, 0"/>
         
         <Button Text="Sou ONG" 
                 BackgroundColor="Green" 
                 FontFamily=""  
                 Clicked="LoginONGs"
-                FontSize="15"
-                Margin="70, -4 , 70, 0"/>
+                FontSize="14"
+                Margin="70, 0 , 70, 0"/>
 
     </StackLayout>
 

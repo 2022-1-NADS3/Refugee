@@ -1,11 +1,93 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Refugee.PerfilRefugiado">
+             x:Class="Refugee.PerfilRefugiado"
+             BackgroundColor="White"
+             NavigationPage.HasNavigationBar="False">
     
     <ScrollView>    
-        <StackLayout>
-          
+        <StackLayout Padding=" 10">
+            <Label Text="AQUI É O PERFIL DO REFUGIADO, ABRAÇOS" TextColor="Black" FontSize="Large"/>
+
+
+                    <Label Text="Mustaffa Mohamed" TextColor="Black" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Line X1="350"
+                Y1="0"
+                X2="0"
+                Y2="0"
+                Stroke="Black" VerticalOptions="Center"
+                StrokeThickness="5"/>
+                       
+
+            <Frame Margin="10"
+                    BorderColor="Black"
+                    CornerRadius="150"
+                    HeightRequest="150"
+                    WidthRequest="150"
+                    IsClippedToBounds="True"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center">
+                <Image Source="Rene.png"
+                            Aspect="AspectFill"
+                            Margin="-20"
+                            HeightRequest="150"
+                            WidthRequest="150"/>
+            </Frame>
+
+
+            <Line X1="350"
+                Y1="0"
+                X2="0"
+                Y2="0"
+                Stroke="Black" VerticalOptions="Center"
+                StrokeThickness="5"/>
+
+
+
+
+
+
+            <Label Text="Biografia" TextColor="Black" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+            <StackLayout BackgroundColor="AliceBlue" Padding="20" Margin="10,0,10,-10">
+                <Label Text="Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker."  FontSize="Medium" />
+                </StackLayout>
+
+                <Label Text="E-mail:" TextColor="Black" FontSize="Large"/>
+                    <Label Text="ongabc@hotmail.com" FontSize="Medium"/>
+
+
+                    <Label Text="Endereço:" TextColor="Black" FontSize="Large"/>
+                    <Label Text="Rua Cantagalo, 1483 - Tatuapé, São Paulo-SP, 03319-001"  FontSize="Medium"/>
+
+
+                    <Label Text="Horário de Atendimento:" TextColor="Black" FontSize="Large"/>
+                    <Label Text="Segunda á Sexta das 07:00 - 16:00" FontSize="Medium"/>
+
+
+                    <Label Text="Linguas Aceitas" TextColor="Black" FontSize="Large"/>
+                    <Label Text="Português" FontSize="Medium"/>
+                    <Label Text="Inglês" FontSize="Medium"/>
+                    <Label Text="Espanhol" FontSize="Medium"/>
+
+                    <Label Text="Vagas Disponíveis" TextColor="Black" FontSize="Large"/>
+                    <Label Text="3" FontSize="Large"/>
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </StackLayout>
     </ScrollView>
 </ContentPage>
