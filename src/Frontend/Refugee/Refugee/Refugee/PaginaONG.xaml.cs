@@ -25,9 +25,9 @@ namespace Refugee
                 return;
             if(item.Title == "EditarDadosONG")
             {
-                Navigation.PushAsync(new TelaRefugiado());
+                Navigation.PushAsync(new AlterarDadosONG());
             }
-            else if(item.Title == "Sair")
+            else if(item.Title == "Voltar")
             {
                 Navigation.PushAsync(new MainPage());
             }

@@ -28,6 +28,7 @@ namespace Refugee
             {
                 Navigation.PushAsync(new PerfilRefugiado());
             }
+            
             else if (item.Title == "Sair")
             {
                 Navigation.PushAsync(new MainPage());

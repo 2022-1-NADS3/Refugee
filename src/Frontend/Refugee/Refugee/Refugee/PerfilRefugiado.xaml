@@ -2,12 +2,71 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Refugee.PerfilRefugiado"
-             BackgroundColor="White"
-             NavigationPage.HasNavigationBar="False">
-    
-    <ScrollView>    
-        <StackLayout>
-            <Label Text="AQUI É O PERFIL DO REFUGIADO, ABRAÇOS" TextColor="Black" FontSize="Large"/>
-        </StackLayout>
-    </ScrollView>
+             BackgroundColor="White">
+    <ContentPage.Content>
+
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Nome refugiado" x:Name="NomedoRefugiado" FontSize="20" TextColor="Black" HorizontalOptions="Center"/>
+                <Line X1="380"
+                Y1="0"
+                X2="30"
+                Y2="0"
+                Stroke="Black" VerticalOptions="Center"
+                StrokeThickness="5"/>
+                <Frame Margin="10"
+                    BorderColor="Black"
+                    CornerRadius="150"
+                    HeightRequest="150"
+                    WidthRequest="150"
+                    IsClippedToBounds="True"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center">
+                    <Image Source="Splash.png"
+                            Aspect="AspectFill"
+                            Margin="-20"
+                            HeightRequest="50"
+                            WidthRequest="50"/>
+                </Frame>
+                <Line X1="380"
+                Y1="0"
+                X2="30"
+                Y2="0"
+                Stroke="Black" VerticalOptions="Center"
+                StrokeThickness="5"/>
+                <Label Text="Meus Dados" FontSize="Title" TextColor="Black" HorizontalOptions="Center"/>
+                <StackLayout BackgroundColor="White" Padding="0,10,0,10">
+                    <Label Text="Node Refugiado" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Label Text="Karin" x:Name="NomeRefugiado" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+                </StackLayout>
+                <StackLayout BackgroundColor="White" Padding="0,10,0,10">
+                    <Label Text="Nome Social" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Label Text="Valentina" x:Name="NomeSocial" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+                </StackLayout>
+                <StackLayout BackgroundColor="White" Padding="0,10,0,10">
+                    <Label Text="Celular" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Label Text="1123476589" x:Name="CelularRefugiado" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+                </StackLayout>
+                <StackLayout BackgroundColor="White" Padding="0,10,0,10">
+                    <Label Text="Email" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Label Text="refugiado@refu.com" x:Name="RefugiadoEmail" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+                </StackLayout>
+                <StackLayout BackgroundColor="White" Padding="0,10,0,10">
+                    <Label Text="Endereço" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Label Text="Rua dos caras" x:Name="EnderecoRefugiado" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+                </StackLayout>
+                <StackLayout BackgroundColor="White" Padding="0,10,0,10">
+                    <Label Text="Estado Civíl" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Label Text="3" x:Name="EstadoCivil" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+                </StackLayout>
+                <Button Text="Alterar Dados" 
+                    TextColor="White"
+                    BackgroundColor="Green" 
+                    FontFamily="" 
+                    FontSize="15"
+                    Margin="30, 0 , 30, 0"
+                    Clicked="AlterarDados"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
 </ContentPage>

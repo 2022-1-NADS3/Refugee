@@ -10,15 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace Refugee
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class PerfilRefugiado : ContentPage
+    public partial class AlterarDadosONG : ContentPage
     {
-        public PerfilRefugiado()
+        public AlterarDadosONG()
         {
             InitializeComponent();
-        }
-        private void AlterarDados(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new AlterarDadosRefugiadoOne());
         }
     }
 }
