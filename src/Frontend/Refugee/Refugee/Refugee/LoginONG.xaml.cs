@@ -12,6 +12,10 @@ namespace Refugee
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginONG : ContentPage
     {
+        private void Logar(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new PaginaONG());
+        }
         private void FazerCadastroO(object sender, EventArgs e)
         {
             Navigation.PushAsync(new CadONG());

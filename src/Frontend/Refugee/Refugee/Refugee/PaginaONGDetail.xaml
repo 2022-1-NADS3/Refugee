@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Refugee.PaginaONGDetail"
+             BackgroundColor="White"
+             Title="Refugee">
+    <ScrollView>
+        <StackLayout>
+            <Label Text="Nome ONG" x:Name="NomeDaONG" FontSize="20" TextColor="Black" HorizontalOptions="Center"/>
+            <Line X1="380"
+                Y1="0"
+                X2="30"
+                Y2="0"
+                Stroke="Black" VerticalOptions="Center"
+                StrokeThickness="5"/>
+            <Frame Margin="10"
+                    BorderColor="Black"
+                    CornerRadius="0"
+                    HeightRequest="150"
+                    WidthRequest="250"
+                    IsClippedToBounds="True"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center">
+                <Image Source="Splash.png"
+                            Aspect="AspectFill"
+                            Margin="-20"
+                            HeightRequest="50"
+                            WidthRequest="50"/>
+            </Frame>
+            <Label Text="Contado" FontSize="Title" TextColor="Black" HorizontalOptions="Center"/>
+            <StackLayout BackgroundColor="White" Padding="0,10,0,10">
+                <Label Text="Telefone" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
+                <Label Text="11992242472" x:Name="TelefoneONG" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="White" Padding="0,10,0,10">
+                <Label Text="Email" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
+                <Label Text="ongabc@hotmail.com" x:Name="EmailONG" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="White" Padding="0,10,0,10">
+                <Label Text="Endereço" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
+                <Label Text="R. Cantagalo, 1483 - Tatuapé, São Paulo - SP, 03319-001" x:Name="EnderecoONG" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="White" Padding="0,10,0,10">
+                <Label Text="Horário de Atendimento" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
+                <Label Text="Segunda a sexta das 07:00 - 16:00" x:Name="HorarioONG" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="White" Padding="0,10,0,10">
+                <Label Text="Línguas Aceitas" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
+                <Label Text="Português" x:Name="LinguasONG" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="White" Padding="0,10,0,10">
+                <Label Text="Vagas Disponíveis" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
+                <Label Text="3" x:Name="VagasONG" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+            </StackLayout>
+        </StackLayout>  
+    </ScrollView>
+</ContentPage>

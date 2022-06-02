@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Refugee.CadRefugiado"
-             BackgroundColor="White">
+             BackgroundColor="White"
+             NavigationPage.HasNavigationBar="False">
     <ScrollView>
         <StackLayout>
             <Image Source="logo.png" 
@@ -12,16 +13,17 @@
                    TextColor="Black" 
                    HorizontalOptions="CenterAndExpand" 
                    VerticalOptions="Center" 
-                   FontSize="24"/>
+                   FontSize="20"/>
         
             <Line X1="380"
                 Y1="0"
                 X2="30"
                 Y2="0"
                 Stroke="Black" VerticalOptions="Center" />
+            
             <Label Text="Nome Completo" 
                    TextColor="Black" 
-                   FontSize="20"  Margin="30, 0, 30, 5"/>
+                   FontSize="15"  Margin="30, 0, 30, 5"/>
         
             <Entry x:Name="Nome" 
                    Placeholder="Informe seu nome completo" 
@@ -33,7 +35,7 @@
         
             <Label Text="Nome Social" 
                    TextColor="Black" 
-                   FontSize="20"  
+                   FontSize="15"  
                    Margin="30, 0, 30, 5"/>
         
             <Entry x:Name="NomeSocial" 
@@ -46,7 +48,7 @@
         
             <Label Text="Data de Nacimento"
                    TextColor="Black" 
-                   FontSize="20"  
+                   FontSize="15"  
                    Margin="30, 0, 30, 5"/>
         
             <DatePicker x:Name="CampoData"
@@ -58,11 +60,11 @@
 
             <Label Text="Sexo" 
                    TextColor="Black" 
-                   FontSize="20"  
+                   FontSize="15"   
                    Margin="30, 0, 30, 5"/>
 
             <Picker x:Name="Sexos" Title="Selecione o seu sexo" 
-                    TitleColor="WhiteSmoke" 
+                    TitleColor="Black" 
                     Margin="30, 0, 30, 5" 
                     FontSize="18" 
                     BackgroundColor="AliceBlue" 
@@ -79,11 +81,11 @@
 
             <Label Text="Genêro" 
                    TextColor="Black" 
-                   FontSize="20"  
+                   FontSize="15"   
                    Margin="30, 0, 30, 5"/>
 
             <Picker x:Name="Generos" Title="Selecione o seu Genêro" 
-                    TitleColor="WhiteSmoke" 
+                    TitleColor="Black" 
                     Margin="30, 0, 30, 5" 
                     FontSize="18" 
                     BackgroundColor="AliceBlue" 
@@ -91,20 +93,22 @@
 
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
-                        <x:String>Hetero Top</x:String>
-                        <x:String>Lebisca</x:String>
-                        <x:String>Gaymer</x:String>
+                        <x:String>Heterossexual</x:String>
+                        <x:String>Homossexual</x:String>
+                        <x:String>Bissexual</x:String>
+                        <x:String>Assexual</x:String>
+                        <x:String>Pansexual</x:String>
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
         
             <Label Text="País" 
                    TextColor="Black" 
-                   FontSize="20"  
+                   FontSize="15"   
                    Margin="30, 0, 30, 5"/>
 
             <Picker x:Name="Paises" Title="Selecione seu País" 
-                    TitleColor="WhiteSmoke" 
+                    TitleColor="Black" 
                     Margin="30, 0, 30, 5" 
                     FontSize="18" 
                     BackgroundColor="AliceBlue" 
@@ -326,7 +330,7 @@
 
             <Label Text="Idiomas" 
                    TextColor="Black" 
-                   FontSize="20"  
+                   FontSize="15"   
                    Margin="30, 0, 30, 5"/>
 
             <Entry x:Name="Idioma" 
@@ -339,11 +343,11 @@
 
             <Label Text="Estado Civil" 
                    TextColor="Black" 
-                   FontSize="20"  
+                   FontSize="15"  
                    Margin="30, 0, 30, 5"/>
 
             <Picker x:Name="Estadocivil" Title="Informe seu estado civil" 
-                    TitleColor="WhiteSmoke" 
+                    TitleColor="Black" 
                     Margin="30, 0, 30, 5" 
                     FontSize="18" 
                     BackgroundColor="AliceBlue" 
@@ -361,11 +365,11 @@
 
             <Label Text="Nº de filhos" 
                    TextColor="Black" 
-                   FontSize="20"  
+                   FontSize="15"    
                    Margin="30, 0, 30, 5"/>
 
             <Picker x:Name="NdeFilhos" Title="Quantos filhos?" 
-                    TitleColor="WhiteSmoke" 
+                    TitleColor="Black" 
                     Margin="30, 0, 30, 5" 
                     FontSize="18" 
                     BackgroundColor="AliceBlue" 
@@ -383,7 +387,7 @@
 
             <Label Text="Telefone" 
                    TextColor="Black" 
-                   FontSize="20"  
+                   FontSize="15"    
                    Margin="30, 0, 30, 5"/>
 
             <Entry x:Name="Telefone" 
@@ -396,7 +400,7 @@
 
             <Label Text="Profissão" 
                    TextColor="Black" 
-                   FontSize="20"  
+                   FontSize="15"  
                    Margin="30, 0, 30, 5"/>
 
             <Entry x:Name="Profissao" 
@@ -409,11 +413,11 @@
 
             <Label Text="Formação" 
                    TextColor="Black" 
-                   FontSize="20"  
+                   FontSize="15"    
                    Margin="30, 0, 30, 5"/>
 
             <Picker x:Name="Formacao" Title="Informe seu nivel de escolaridade" 
-                    TitleColor="WhiteSmoke" 
+                    TitleColor="Black" 
                     Margin="30, 0, 30, 5" 
                     FontSize="18" 
                     BackgroundColor="AliceBlue" 
@@ -433,7 +437,7 @@
 
             <Label Text="Deficiência" 
                    TextColor="Black" 
-                   FontSize="20"  
+                   FontSize="15"   
                    Margin="30, 0, 30, 5"/>
 
             <Entry x:Name="Deficiencia" 
@@ -446,7 +450,7 @@
 
             <Label Text="Nº de identificação" 
                    TextColor="Black" 
-                   FontSize="20"  
+                   FontSize="15"    
                    Margin="30, 0, 30, 5"/>
 
             <Entry x:Name="NdeIfentificacao" 
@@ -459,7 +463,7 @@
 
             <Label Text="Email" 
                    TextColor="Black" 
-                   FontSize="20"  
+                   FontSize="15"    
                    Margin="30, 0, 30, 5"/>
 
             <Entry x:Name="Email" 
@@ -472,7 +476,7 @@
 
             <Label Text="Senha" 
                    TextColor="Black" 
-                   FontSize="20"  
+                   FontSize="15"    
                    Margin="30, 0, 30, 5"/>
 
             <Entry x:Name="Senha" 
@@ -484,32 +488,20 @@
                    ClearButtonVisibility="WhileEditing" 
                    Margin="30, 0, 30, 5"/>
 
-            <Label Text="Confirme sua Senha" 
-                   TextColor="Black" 
-                   FontSize="20"  
-                   Margin="30, 0, 30, 5"/>
-
-            <Entry x:Name="ConfirmeSenha" 
-                   Placeholder="Repita a senha"
-                   IsPassword="True"
-                   TextColor="Black" 
-                   PlaceholderColor="Black" 
-                   BackgroundColor="AliceBlue" 
-                   ClearButtonVisibility="WhileEditing" 
-                   Margin="30, 0, 30, 5"/>
-            
             <Button Text="Finalizar Cadastro" 
+                    TextColor="White"
                     BackgroundColor="Green" 
                     FontFamily="" 
-                    FontSize="15"
+                    FontSize="Micro"
                     Margin="210, 30 , 30, 0"
                     Clicked="TenhoCadastroR"/>
 
             <Button Text="Já sou cadastrado" 
+                    TextColor="White"
                     BackgroundColor="Green" 
                     FontFamily="" 
-                    FontSize="15"
-                    Margin="30, -54 , 210, 30"
+                    FontSize="Micro"
+                    Margin="30, -54,210, 30"
                     Clicked="TenhoCadastroR"/>
 
 

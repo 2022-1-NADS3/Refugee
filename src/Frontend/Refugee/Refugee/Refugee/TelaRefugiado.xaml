@@ -1,9 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Refugee.TelaRefugiado">
+             x:Class="Refugee.TelaRefugiado"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="Green">
     
     <StackLayout>
-        
+        <Label Text="JSON was Here!" x:Name="json"/>
+        <Button Text="Chama o Json!" Clicked="Dados"/>
+        <Label Text="Nome do usuario"/>
+        <Label Text="NNNNN" x:Name="userName"/>
+        <Label Text="Sobrenome do usuario"/>
+        <Label Text="SSSSS" x:Name="sureName"/>
+        <Label Text="Idade do usuario"/>
+        <Label Text="NNNNN" x:Name="userAge"/>
+        <Label Text="Altura do usuario"/>
+        <Label Text="NNNNN" x:Name="userHeight"/>
     </StackLayout>
 </ContentPage>

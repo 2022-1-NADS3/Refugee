@@ -16,5 +16,9 @@ namespace Refugee
         {
             InitializeComponent();
         }
+        private void AlterarDados(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AlterarDadosRefugiadoOne());
+        }
     }
 }
