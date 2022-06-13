@@ -5,7 +5,122 @@
              BackgroundColor="White">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Pagina de alterar dados ONG!" TextColor="Black" FontSize="Large"/>
+            <Image Source="logo.png" 
+                   Margin="30, 20 , 30, 0"/>
+
+            <Label Text="Alterar Cadastro ONGs" 
+                   TextColor="Black" 
+                   HorizontalOptions="CenterAndExpand" 
+                   VerticalOptions="Center" 
+                   FontSize="24"/>
+
+            <Line X1="380"
+                Y1="0"
+                X2="30"
+                Y2="0"
+                Stroke="Black" 
+                VerticalOptions="Center" />
+
+            <Label Text="Nome da ONG" 
+                   TextColor="Black" 
+                   FontSize="20"  Margin="30, 0, 30, 5"/>
+
+            <Entry x:Name="NomeONG" 
+                   Placeholder="Informe o nome da instituição" 
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
+
+            <Label Text="Nº de Registro" 
+                   TextColor="Black" 
+                   FontSize="20"  
+                   Margin="30, 0, 30, 5"/>
+
+            <Entry x:Name="Registro" 
+                   Placeholder="Informe seu nº de Registro" 
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
+
+            <Label Text="Telefone" 
+                   TextColor="Black" 
+                   FontSize="20"  
+                   Margin="30, 0, 30, 5"/>
+
+            <Entry x:Name="telefone" 
+                   Placeholder="Informe seu nº de Telefone" 
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
+
+            <Label Text="Email" 
+                   TextColor="Black" 
+                   FontSize="15"    
+                   Margin="30, 0, 30, 5"/>
+
+            <Entry x:Name="Email" 
+                   Placeholder="exemplo@gmail.com" 
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
+
+            <Label Text="Endereço" 
+                   TextColor="Black" 
+                   FontSize="20"  
+                   Margin="30, 0, 30, 5"/>
+
+            <Entry x:Name="Endereco" 
+                   Placeholder="Insira seu Endereço" 
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
+
+
+            <Label Text="Horario de Atendimento" 
+                   TextColor="Black" 
+                   FontSize="20"  
+                   Margin="30, 0, 30, 5"/>
+
+            <Entry x:Name="HoraAtende" 
+                   Placeholder="Qual seu horario de atendimento" 
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
+
+            <Label Text="Capacidade Disponivel" 
+                   TextColor="Black" 
+                   FontSize="20"  
+                   Margin="30, 0, 30, 5"/>
+
+            <Entry x:Name="Capacidade" 
+                   Placeholder="Qual a capacidade da sua ONG" 
+                   TextColor="Black" 
+                   PlaceholderColor="Black" 
+                   BackgroundColor="AliceBlue" 
+                   ClearButtonVisibility="WhileEditing" 
+                   Margin="30, 0, 30, 5"/>
+
+            
+
+            <Button Text="Alterar Cadastro" 
+                    BackgroundColor="Green" 
+                    TextColor="White"
+                    FontFamily="" 
+                    FontSize="Micro"
+                    Margin="210, 30 , 30, 0"
+                    Clicked="TenhoCadastroO"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
