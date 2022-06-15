@@ -27,21 +27,8 @@
                    TextColor="Black" 
                    FontSize="20"  Margin="30, 0, 30, 5"/>
 
-            <Entry x:Name="NomeONG" 
+            <Entry x:Name="nomeONG" 
                    Placeholder="Informe o nome da instituição" 
-                   TextColor="Black" 
-                   PlaceholderColor="Black" 
-                   BackgroundColor="AliceBlue" 
-                   ClearButtonVisibility="WhileEditing" 
-                   Margin="30, 0, 30, 5"/>
-
-            <Label Text="Nº de Registro" 
-                   TextColor="Black" 
-                   FontSize="20"  
-                   Margin="30, 0, 30, 5"/>
-
-            <Entry x:Name="Registro" 
-                   Placeholder="Informe seu nº de Registro" 
                    TextColor="Black" 
                    PlaceholderColor="Black" 
                    BackgroundColor="AliceBlue" 
@@ -53,7 +40,7 @@
                    FontSize="20"  
                    Margin="30, 0, 30, 5"/>
 
-            <Entry x:Name="Endereco" 
+            <Entry x:Name="endereco" 
                    Placeholder="Insira seu Endereço" 
                    TextColor="Black" 
                    PlaceholderColor="Black" 
@@ -92,7 +79,7 @@
                    FontSize="20"  
                    Margin="30, 0, 30, 5"/>
 
-            <Entry x:Name="Servico" 
+            <Entry x:Name="servico" 
                    Placeholder="Qual o serviço prestado" 
                    TextColor="Black" 
                    PlaceholderColor="Black" 
@@ -105,7 +92,7 @@
                    FontSize="20"  
                    Margin="30, 0, 30, 5"/>
 
-            <Entry x:Name="HoraAtende" 
+            <Entry x:Name="horaAtende" 
                    Placeholder="Qual seu horario de atendimento" 
                    TextColor="Black" 
                    PlaceholderColor="Black" 
@@ -118,7 +105,7 @@
                    FontSize="20"  
                    Margin="30, 0, 30, 5"/>
 
-            <Entry x:Name="Capacidade" 
+            <Entry x:Name="capacidade" 
                    Placeholder="Qual a capacidade da sua ONG" 
                    TextColor="Black" 
                    PlaceholderColor="Black" 
@@ -144,7 +131,7 @@
                    FontSize="15"    
                    Margin="30, 0, 30, 5"/>
 
-            <Entry x:Name="Email" 
+            <Entry x:Name="email" 
                    Placeholder="exemplo@gmail.com" 
                    TextColor="Black" 
                    PlaceholderColor="Black" 
@@ -157,7 +144,7 @@
                    FontSize="15"    
                    Margin="30, 0, 30, 5"/>
 
-            <Entry x:Name="Senha" 
+            <Entry x:Name="senha" 
                    Placeholder="Crie uma senha"
                    IsPassword="True"
                    TextColor="Black" 
@@ -172,7 +159,7 @@
                     FontFamily="" 
                     FontSize="Micro"
                     Margin="210, 30 , 30, 0"
-                    Clicked="TenhoCadastroO"/>
+                    Clicked="CadastrarONG"/>
 
             <Button Text="Já sou cadastrado" 
                     BackgroundColor="Green" 

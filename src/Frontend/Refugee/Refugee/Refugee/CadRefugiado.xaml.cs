@@ -60,11 +60,11 @@ namespace Refugee
 
         async void Cadastrar(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(nome.Text) || string.IsNullOrEmpty(sexo.Text) || 
-                string.IsNullOrEmpty(paises.Text) || string.IsNullOrEmpty(idioma.Text) ||
-                string.IsNullOrEmpty(estadocivil.Text) || string.IsNullOrEmpty(ndefilhos.Text) ||
-                string.IsNullOrEmpty(telefone.Text) || string.IsNullOrEmpty(deficiencia.Text) ||
-                string.IsNullOrEmpty(email.Text) || string.IsNullOrEmpty(senha.Text)){
+            if (string.IsNullOrWhiteSpace(nome.Text) || string.IsNullOrWhiteSpace(sexo.Text) || 
+                string.IsNullOrWhiteSpace(paises.Text) || string.IsNullOrWhiteSpace(idioma.Text) ||
+                string.IsNullOrWhiteSpace(estadocivil.Text) || string.IsNullOrWhiteSpace(ndefilhos.Text) ||
+                string.IsNullOrWhiteSpace(telefone.Text) || string.IsNullOrWhiteSpace(deficiencia.Text) ||
+                string.IsNullOrWhiteSpace(email.Text) || string.IsNullOrWhiteSpace(senha.Text)){
 
                 await DisplayAlert("Atenção", @"Todos os campos tem que conter dados", "Beleza");
 

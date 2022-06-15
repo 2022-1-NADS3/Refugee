@@ -27,7 +27,7 @@ namespace Refugee
             {
                 Navigation.PushAsync(new AlterarDadosONG());
             }
-            else if(item.Title == "Voltar")
+            else if(item.Title == "Sair")
             {
                 Navigation.PushAsync(new MainPage());
             }

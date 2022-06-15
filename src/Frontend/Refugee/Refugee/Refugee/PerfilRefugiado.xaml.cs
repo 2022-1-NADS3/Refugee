@@ -9,6 +9,15 @@ using Xamarin.Forms.Xaml;
 
 namespace Refugee
 {
+    public static class DadosModel
+    {
+        public static string NomeModel { get; set; }
+        public static string EmailModel { get; set; }
+        public static string SenhaModel { get; set; }
+        public static string SexoModel { get; set; }
+        public static int UserId { get; set; }
+
+    }
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PerfilRefugiado : ContentPage
     {

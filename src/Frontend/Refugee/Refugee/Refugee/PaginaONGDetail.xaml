@@ -27,7 +27,7 @@
                             HeightRequest="50"
                             WidthRequest="50"/>
             </Frame>
-            <Label Text="Contado" FontSize="Title" TextColor="Black" HorizontalOptions="Center"/>
+            <Label Text="Contato" FontSize="Title" TextColor="Black" HorizontalOptions="Center"/>
             <StackLayout BackgroundColor="White" Padding="0,10,0,10">
                 <Label Text="Telefone" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
                 <Label Text="11992242472" x:Name="TelefoneONG" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>

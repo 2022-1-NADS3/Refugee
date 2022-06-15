@@ -21,7 +21,7 @@
             Stroke="Black" 
             VerticalOptions="Center"/>
 
-        <Entry x:Name="Login" 
+        <Entry x:Name="emailong" 
                 Placeholder="Email ou número de telefone" 
                 TextColor="Black" 
                 PlaceholderColor="Black" 
@@ -29,7 +29,7 @@
                 ClearButtonVisibility="WhileEditing" 
                 Margin="30, 0, 30, 5"/>
 
-        <Entry x:Name="Senha" 
+        <Entry x:Name="senhaong" 
                 Placeholder="Senha" 
                 IsPassword="True"
                 TextColor="Black" 
@@ -44,7 +44,7 @@
                 FontFamily="" 
                 FontSize="15"
                 Margin="30, 0 , 30, 0"
-                Clicked="Logar"/>
+                Clicked="LogandoOng"/>
 
         <Label Text="ou"
                 FontSize="20"
@@ -64,6 +64,5 @@
                 BackgroundColor="White"
                 FontSize="15"
                 Margin="30, 0, 30, 0"/>
-        <!--Clicked="none"-->
     </StackLayout>
 </ContentPage>
