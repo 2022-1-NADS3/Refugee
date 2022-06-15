@@ -65,17 +65,17 @@ namespace Refugee
                 if (post.IsSuccessStatusCode && result.Contains(emailong.Text))
                 {
 
-                    //DadosByRefugiado.NomeRefugiado = textresult["refuname"].ToString();
-                    //DadosByRefugiado.SexoRefugiado = textresult["refusexo"].ToString();
-                    //DadosByRefugiado.PaisRefugiado = textresult["refupais"].ToString();
-                    //DadosByRefugiado.IdiomaRefugiado = textresult["refuidioma"].ToString();
-                    //DadosByRefugiado.EstadoCivilRefugiado = textresult["refuestadoCivil"].ToString();
-                    //DadosByRefugiado.NumeroFilhoRefugiado = textresult["refunumeroFilhos"].ToString();
-                    //DadosByRefugiado.TelefoneRefugiado = textresult["refutelefone"].ToString();
-                    //DadosByRefugiado.DeficienciaRefugiado = textresult["refudeficiencia"].ToString();
-                    //DadosByRefugiado.EmailRefugiado = textresult["refuemail"].ToString();
-                    //DadosByRefugiado.SenhaRefugiado = textresult["refusenha"].ToString();
-                    //DadosByRefugiado.RefugiadoID = (int)textresult["user_id"];
+                    DadosByONGs.NomeONG = textresult["nome_ong"].ToString();
+                    DadosByONGs.EnderecoONG = textresult["endereco_ong"].ToString();
+                    DadosByONGs.TelefoneONG = textresult["telefone_ong"].ToString();
+                    DadosByONGs.ResponsavelONG = textresult["responsavel_ong"].ToString();
+                    DadosByONGs.ServicoONG = textresult["servico_ong"].ToString();
+                    DadosByONGs.HorarioONG = textresult["horarioatendimento_ong"].ToString();
+                    DadosByONGs.CapacidadeONG = textresult["capacidadedisponivel_ong"].ToString();
+                    DadosByONGs.LinguasONG = textresult["linguasaceitas_ong"].ToString();
+                    DadosByONGs.EmailONG = textresult["email_ong"].ToString();
+                    DadosByONGs.SenhaONG = textresult["senha_ong"].ToString();
+                    DadosByONGs.ONGID = (int)textresult["ong_id"];
                     await Navigation.PushAsync(new PaginaONG());
                 }
                 else

@@ -157,7 +157,7 @@
                     BackgroundColor="Green" 
                     TextColor="White"
                     FontFamily="" 
-                    FontSize="Micro"
+                    FontSize="Small"
                     Margin="210, 30 , 30, 0"
                     Clicked="CadastrarONG"/>
 
@@ -165,7 +165,7 @@
                     BackgroundColor="Green" 
                     TextColor="White"
                     FontFamily="" 
-                    FontSize="Micro"
+                    FontSize="Small"
                     Margin="30, -54 , 210, 30"
                     Clicked="TenhoCadastroO"/>
         </StackLayout>

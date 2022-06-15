@@ -160,7 +160,7 @@
                     TextColor="White"
                     BackgroundColor="Green" 
                     FontFamily="" 
-                    FontSize="Micro"
+                    FontSize="Small"
                     Margin="210, 30 , 30, 0"
                     Clicked="Cadastrar"/>
 
@@ -168,7 +168,7 @@
                     TextColor="White"
                     BackgroundColor="Green" 
                     FontFamily="" 
-                    FontSize="Micro"
+                    FontSize="Small"
                     Margin="30, -54,210, 30"
                     Clicked="TenhoCadastroR"/>
 

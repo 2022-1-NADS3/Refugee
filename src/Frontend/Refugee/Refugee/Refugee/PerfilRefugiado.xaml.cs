@@ -79,9 +79,34 @@ namespace Refugee
             emailrefugiado.Text = DadosByRefugiado.EmailRefugiado;
             senharefugiado.Text = DadosByRefugiado.SenhaRefugiado;
         }
-        private void AlterarDados(object sender, EventArgs e)
+        async void SairByRefugiado(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new AlterarDadosRefugiadoOne());
+            nomeRefugiado.Text = "";
+            DadosByRefugiado.NomeRefugiado = "";
+            sexorefugiado.Text = "";
+            DadosByRefugiado.SexoRefugiado = "";
+            paisrefugiado.Text = "";
+            DadosByRefugiado.PaisRefugiado = "";
+            idiomarefugiado.Text = "";
+            DadosByRefugiado.IdiomaRefugiado = "";
+            esdatocivil.Text = "";
+            DadosByRefugiado.EstadoCivilRefugiado = "";
+            numerofilhos.Text = "";
+            DadosByRefugiado.NumeroFilhoRefugiado = "";
+            telefonerefugiado.Text = "";
+            DadosByRefugiado.TelefoneRefugiado = "";
+            deficiencia.Text = "";
+            DadosByRefugiado.DeficienciaRefugiado = "";
+            emailrefugiado.Text = "";
+            DadosByRefugiado.EmailRefugiado = "";
+            senharefugiado.Text = "";
+            DadosByRefugiado.SenhaRefugiado = "";
+            await DisplayAlert("Tchau", @"Você foi deslogado", "OK");
+            await Navigation.PushAsync(new MainPage());
+        }
+        async void AlterarDados(object sender, EventArgs e)
+        {
+            await DisplayAlert("Atenção", @"Infelizmente essa função está sendo preparada", "Ok");
         }
     }
 }
