@@ -28,59 +28,59 @@
                             WidthRequest="50"/>
             </Frame>
             <Label Text="Contato" FontSize="Title" TextColor="Black" HorizontalOptions="Center"/>
-            <StackLayout BackgroundColor="AliceBlue" Padding="0,10,0,10">
-                <Label Text="Nome ONG" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                <Entry IsEnabled="False" Text="" x:Name="nomeONG" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+            <StackLayout BackgroundColor="#28C91B" Padding="0,10,0,10" Margin="10,5,10,2">
+                <Label Text="Nome ONG" FontSize="Subtitle" TextColor="White" FontAttributes="Bold" Margin="10,0,0,0"/>
+                <Entry IsEnabled="False" Text="" x:Name="nomeONG" FontSize="Large" TextColor="White" Margin="10,-8,0,0"/>
             </StackLayout>
-            <StackLayout BackgroundColor="AliceBlue" Padding="0,10,0,10">
-                <Label Text="Endereço da ONG" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                <Entry IsEnabled="False" Text="" x:Name="enderecoONG" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+            <StackLayout BackgroundColor="#28C91B" Padding="0,10,0,10" Margin="10,3,10,2">
+                <Label Text="Endereço da ONG" FontSize="Subtitle" TextColor="White" FontAttributes="Bold" Margin="10,0,0,0"/>
+                <Entry IsEnabled="False" Text="" x:Name="enderecoONG" FontSize="Large" TextColor="White" Margin="10,-8,0,0"/>
             </StackLayout>
-            <StackLayout BackgroundColor="AliceBlue" Padding="0,10,0,10">
-                <Label Text="Telefone ONG" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                <Entry IsEnabled="False" Text="" x:Name="telefoneONG" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+            <StackLayout BackgroundColor="#28C91B" Padding="0,10,0,10" Margin="10,3,10,2">
+                <Label Text="Telefone ONG" FontSize="Subtitle" TextColor="White" FontAttributes="Bold" Margin="10,0,0,0"/>
+                <Entry IsEnabled="False" Text="" x:Name="telefoneONG" FontSize="Large" TextColor="White" Margin="10,-8,0,0"/>
             </StackLayout>
-            <StackLayout BackgroundColor="AliceBlue" Padding="0,10,0,10">
-                <Label Text="Responsavel pela ONG" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                <Entry IsEnabled="False" Text="" x:Name="responsavelONG" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+            <StackLayout BackgroundColor="#28C91B" Padding="0,10,0,10" Margin="10,3,10,2">
+                <Label Text="Responsavel pela ONG" FontSize="Subtitle" TextColor="White" FontAttributes="Bold" Margin="10,0,0,0"/>
+                <Entry IsEnabled="False" Text="" x:Name="responsavelONG" FontSize="Large" TextColor="White" Margin="10,-8,0,0"/>
             </StackLayout>
-            <StackLayout BackgroundColor="AliceBlue" Padding="0,10,0,10">
-                <Label Text="Serviço Prestado" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                <Entry IsEnabled="False" Text="" x:Name="servicoONG" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+            <StackLayout BackgroundColor="#28C91B" Padding="0,10,0,10" Margin="10,3,10,2">
+                <Label Text="Serviço Prestado" FontSize="Subtitle" TextColor="White" FontAttributes="Bold" Margin="10,0,0,0"/>
+                <Entry IsEnabled="False" Text="" x:Name="servicoONG" FontSize="Large" TextColor="White" Margin="10,-8,0,0"/>
             </StackLayout>
-            <StackLayout BackgroundColor="AliceBlue" Padding="0,10,0,10">
-                <Label Text="Horario de Atendimento" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                <Entry IsEnabled="False" Text="" x:Name="horarioONG" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+            <StackLayout BackgroundColor="#28C91B" Padding="0,10,0,10" Margin="10,3,10,2">
+                <Label Text="Horario de Atendimento" FontSize="Subtitle" TextColor="White" FontAttributes="Bold" Margin="10,0,0,0"/>
+                <Entry IsEnabled="False" Text="" x:Name="horarioONG" FontSize="Large" TextColor="White" Margin="10,-8,0,0"/>
             </StackLayout>
-            <StackLayout BackgroundColor="AliceBlue" Padding="0,10,0,10">
-                <Label Text="Capacidade Disponível" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                <Entry IsEnabled="False" Text="" x:Name="capacidadeONG" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+            <StackLayout BackgroundColor="#28C91B" Padding="0,10,0,10" Margin="10,3,10,2">
+                <Label Text="Capacidade Disponível" FontSize="Subtitle" TextColor="White" FontAttributes="Bold" Margin="10,0,0,0"/>
+                <Entry IsEnabled="False" Text="" x:Name="capacidadeONG" FontSize="Large" TextColor="White" Margin="10,-8,0,0"/>
             </StackLayout>
-            <StackLayout BackgroundColor="AliceBlue" Padding="0,10,0,10">
-                <Label Text="Linguas Aceitas" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                <Entry IsEnabled="False" Text="" x:Name="linguasONG" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+            <StackLayout BackgroundColor="#28C91B" Padding="0,10,0,10" Margin="10,3,10,2">
+                <Label Text="Linguas Aceitas" FontSize="Subtitle" TextColor="White" FontAttributes="Bold" Margin="10,0,0,0"/>
+                <Entry IsEnabled="False" Text="" x:Name="linguasONG" FontSize="Large" TextColor="White" Margin="10,-8,0,0"/>
             </StackLayout>
-            <StackLayout BackgroundColor="AliceBlue" Padding="0,10,0,10">
-                <Label Text="E-mail para contato" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                <Entry IsEnabled="False" Text="" x:Name="emailONG" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+            <StackLayout BackgroundColor="#28C91B" Padding="0,10,0,10" Margin="10,3,10,2">
+                <Label Text="E-mail para contato" FontSize="Subtitle" TextColor="White" FontAttributes="Bold" Margin="10,0,0,0"/>
+                <Entry IsEnabled="False" Text="" x:Name="emailONG" FontSize="Large" TextColor="White" Margin="10,-8,0,0"/>
             </StackLayout>
-            <StackLayout BackgroundColor="AliceBlue" Padding="0,10,0,10">
-                <Label Text="Senha" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                <Entry IsPassword="True" IsEnabled="False" Text="" x:Name="senhaONG" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+            <StackLayout BackgroundColor="#28C91B" Padding="0,10,0,10" Margin="10,3,10,5" >
+                <Label Text="Senha" FontSize="Subtitle" TextColor="White" FontAttributes="Bold" Margin="10,0,0,0"/>
+                <Entry IsPassword="True" IsEnabled="False" Text="" x:Name="senhaONG" FontSize="Large" TextColor="White" Margin="10,-8,0,0"/>
             </StackLayout>
             <Button Text="Alterar Dados" 
                     TextColor="White"
                     BackgroundColor="Green" 
                     FontFamily="" 
                     FontSize="15"
-                    Margin="30, 0 , 30, 0"
+                    Margin="210, 30 , 30, 0"
                     Clicked="AlterarDadosONG"/>
             <Button Text="Sair" 
                     TextColor="White"
                     BackgroundColor="Green" 
                     FontFamily="" 
                     FontSize="15"
-                    Margin="30, 0 , 30, 0"
+                    Margin="30, -54,210, 30"
                     Clicked="SairByONG"/>
         </StackLayout>  
     </ScrollView>

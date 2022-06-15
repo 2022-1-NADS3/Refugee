@@ -17,9 +17,9 @@ namespace Refugee
             InitializeComponent();
         }
 
-        private void AbrirPaginaONG(object sender, EventArgs e)
+        async void AbrirPaginaONG(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new PaginaONGDetail());
+            await DisplayAlert("Desculpe-me", @"Infelizmente ainda não consigo te ajudar", "Ok");
         }
     }
 }

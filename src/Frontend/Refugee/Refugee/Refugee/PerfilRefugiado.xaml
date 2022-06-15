@@ -35,59 +35,59 @@
                 Stroke="Black" VerticalOptions="Center"
                 StrokeThickness="5"/>
                 <Label Text="Meus Dados" FontSize="Title" TextColor="Black" HorizontalOptions="Center"/>
-                <StackLayout BackgroundColor="AliceBlue" Padding="0,10,0,10">
-                    <Label Text="Nome Refugiado" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                    <Entry Text="" x:Name="nomeRefugiado" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0" IsEnabled="False"/>
+                <StackLayout BackgroundColor="#28C91B" Padding="0,10,0,10" Margin="10,5,10,2">
+                    <Label Text="Nome Refugiado" FontSize="Subtitle" TextColor="White" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Entry Text="" x:Name="nomeRefugiado" FontSize="Large" TextColor="White" Margin="10,-8,0,0" IsEnabled="False"/>
                 </StackLayout>
-                <StackLayout BackgroundColor="AliceBlue" Padding="0,10,0,10">
-                    <Label Text="Sexo" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                    <Entry Text="" x:Name="sexorefugiado" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0" IsEnabled="False"/>
+                <StackLayout BackgroundColor="#28C91B" Padding="0,10,0,10" Margin="10,3,10,2">
+                    <Label Text="Sexo" FontSize="Subtitle" TextColor="White" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Entry Text="" x:Name="sexorefugiado" FontSize="Large" TextColor="White" Margin="10,-8,0,0" IsEnabled="False"/>
                 </StackLayout>
-                <StackLayout BackgroundColor="AliceBlue" Padding="0,10,0,10">
-                    <Label Text="País" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                    <Entry Text="" x:Name="paisrefugiado" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0" IsEnabled="False"/>
+                <StackLayout BackgroundColor="#28C91B" Padding="0,10,0,10" Margin="10,3,10,2">
+                    <Label Text="País" FontSize="Subtitle" TextColor="White" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Entry Text="" x:Name="paisrefugiado" FontSize="Large" TextColor="White" Margin="10,-8,0,0" IsEnabled="False"/>
                 </StackLayout>
-                <StackLayout BackgroundColor="AliceBlue" Padding="0,10,0,10">
-                    <Label Text="Idioma" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                    <Entry Text="" x:Name="idiomarefugiado" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0" IsEnabled="False"/>
+                <StackLayout BackgroundColor="#28C91B" Padding="0,10,0,10" Margin="10,3,10,2">
+                    <Label Text="Idioma" FontSize="Subtitle" TextColor="White" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Entry Text="" x:Name="idiomarefugiado" FontSize="Large" TextColor="White" Margin="10,-8,0,0" IsEnabled="False"/>
                 </StackLayout>
-                <StackLayout BackgroundColor="AliceBlue" Padding="0,10,0,10">
-                    <Label Text="Estado Civil" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                    <Entry Text="" x:Name="esdatocivil" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0" IsEnabled="False"/>
+                <StackLayout BackgroundColor="#28C91B" Padding="0,10,0,10" Margin="10,3,10,2">
+                    <Label Text="Estado Civil" FontSize="Subtitle" TextColor="White" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Entry Text="" x:Name="esdatocivil" FontSize="Large" TextColor="White" Margin="10,-8,0,0" IsEnabled="False"/>
                 </StackLayout>
-                <StackLayout BackgroundColor="AliceBlue" Padding="0,10,0,10">
-                    <Label Text="Nume de Filhos" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                    <Entry Text="" x:Name="numerofilhos" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0" IsEnabled="False"/>
+                <StackLayout BackgroundColor="#28C91B" Padding="0,10,0,10" Margin="10,3,10,2">
+                    <Label Text="Nume de Filhos" FontSize="Subtitle" TextColor="White" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Entry Text="" x:Name="numerofilhos" FontSize="Large" TextColor="White" Margin="10,-8,0,0" IsEnabled="False"/>
                 </StackLayout>
-                <StackLayout BackgroundColor="AliceBlue" Padding="0,10,0,10">
-                    <Label Text="Telefone" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                    <Entry Text="" x:Name="telefonerefugiado" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0" IsEnabled="False"/>
+                <StackLayout BackgroundColor="#28C91B" Padding="0,10,0,10" Margin="10,3,10,2">
+                    <Label Text="Telefone" FontSize="Subtitle" TextColor="White" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Entry Text="" x:Name="telefonerefugiado" FontSize="Large" TextColor="White" Margin="10,-8,0,0" IsEnabled="False"/>
                 </StackLayout>
-                <StackLayout BackgroundColor="AliceBlue" Padding="0,10,0,10">
-                    <Label Text="Deficiência" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                    <Entry Text="" x:Name="deficiencia" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0" IsEnabled="False"/>
+                <StackLayout BackgroundColor="#28C91B" Padding="0,10,0,10" Margin="10,3,10,2">
+                    <Label Text="Deficiência" FontSize="Subtitle" TextColor="White" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Entry Text="" x:Name="deficiencia" FontSize="Large" TextColor="White" Margin="10,-8,0,0" IsEnabled="False"/>
                 </StackLayout>
-                <StackLayout BackgroundColor="AliceBlue" Padding="0,10,0,10">
-                    <Label Text="email" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                    <Entry Text="" x:Name="emailrefugiado" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0" IsEnabled="False"/>
+                <StackLayout BackgroundColor="#28C91B" Padding="0,10,0,10" Margin="10,3,10,2">
+                    <Label Text="email" FontSize="Subtitle" TextColor="White" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Entry Text="" x:Name="emailrefugiado" FontSize="Large" TextColor="White" Margin="10,-8,0,0" IsEnabled="False"/>
                 </StackLayout>
-                <StackLayout BackgroundColor="AliceBlue" Padding="0,10,0,10">
-                    <Label Text="senha" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                    <Entry Text="" x:Name="senharefugiado" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0" IsEnabled="False"/>
+                <StackLayout BackgroundColor="#28C91B" Padding="0,10,0,10" Margin="10,3,10,2">
+                    <Label Text="senha" FontSize="Subtitle" TextColor="White" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Entry Text="" x:Name="senharefugiado" FontSize="Large" TextColor="White" Margin="10,-8,0,0" IsEnabled="False" IsPassword="True"/>
                 </StackLayout>
                 <Button Text="Alterar Dados" 
                     TextColor="White"
                     BackgroundColor="Green" 
                     FontFamily="" 
                     FontSize="15"
-                    Margin="30, 0 , 30, 0"
+                    Margin="210, 30 , 30, 0"
                     Clicked="AlterarDados"/>
                 <Button Text="Sair" 
                     TextColor="White"
                     BackgroundColor="Green" 
                     FontFamily="" 
                     FontSize="15"
-                    Margin="30, 0 , 30, 0"
+                    Margin="30, -54,210, 30"
                     Clicked="SairByRefugiado"/>
             </StackLayout>
         </ScrollView>

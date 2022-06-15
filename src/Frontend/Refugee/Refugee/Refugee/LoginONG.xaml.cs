@@ -33,6 +33,10 @@ namespace Refugee
         {
             Navigation.PushAsync(new CadONG());
         }
+        async void EsqueceuSenha(object sender, EventArgs e)
+        {
+            await DisplayAlert("Desculpe-me", @"Infelizmente não consigo te ajudar nisso", "Entendo");
+        }
         public LoginONG()
         {
             InitializeComponent();

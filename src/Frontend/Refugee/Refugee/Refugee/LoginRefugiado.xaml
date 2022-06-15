@@ -64,7 +64,8 @@
                     TextColor="Black"
                     BackgroundColor="White"
                     FontSize="15"
-                    Margin="30, 0, 30, 0"/>
+                    Margin="30, 0, 30, 0"
+                    Clicked="EsqueceuSenha"/>
             <!--Clicked="none"-->
 
         </StackLayout>
