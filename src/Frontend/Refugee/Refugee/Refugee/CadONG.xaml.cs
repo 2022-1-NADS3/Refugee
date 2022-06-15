@@ -64,7 +64,7 @@ namespace Refugee
                string.IsNullOrWhiteSpace(capacidade.Text) || string.IsNullOrWhiteSpace(linguasAceitas.Text) ||
                string.IsNullOrWhiteSpace(email.Text) || string.IsNullOrWhiteSpace(senha.Text))
             {
-                await DisplayAlert("Atenção", @"Todos os campos devem ser preenchidos com valores válidos", "Ok");
+                await DisplayAlert("Atenção", @"Todos os campos devem ser preenchidos", "Fechar");
             }
             else
             {

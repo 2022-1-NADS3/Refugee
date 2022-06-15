@@ -42,7 +42,7 @@ namespace Refugee
         {
             if(string.IsNullOrWhiteSpace(emailrefugiado.Text) || string.IsNullOrWhiteSpace(senharefugiado.Text))
             {
-                await DisplayAlert("Atenção", @"Todos os campos tem que conter dados", "Beleza");
+                await DisplayAlert("Atenção", @"Todos os campos devem ser preenchidos", "Fechar");
             }
             else
             {
@@ -63,16 +63,22 @@ namespace Refugee
                 // exibe a saida no TextView 
                 if (post.IsSuccessStatusCode && result.Contains(emailrefugiado.Text))
                 {
-                    //DadosModel.EmailModel = textresult["user_email"].ToString();
-                    //DadosModel.NomeModel = textresult["user_name"].ToString();
-                    //DadosModel.SenhaModel = textresult["user_password"].ToString();
-                    //DadosModel.SexoModel = textresult["user_sex"].ToString();
-                    //DadosModel.UserId = (int)textresult["user_id"];
+                    DadosByRefugiado.NomeRefugiado = textresult["nome_refugiado"].ToString();
+                    DadosByRefugiado.SexoRefugiado = textresult["sexo_refugiado"].ToString();
+                    DadosByRefugiado.PaisRefugiado = textresult["pais_refugiado"].ToString();
+                    DadosByRefugiado.IdiomaRefugiado = textresult["idioma_refugiado"].ToString();
+                    DadosByRefugiado.EstadoCivilRefugiado = textresult["estadocivil_refugiado"].ToString();
+                    DadosByRefugiado.NumeroFilhoRefugiado = textresult["numerofilhos_refugiado"].ToString();
+                    DadosByRefugiado.TelefoneRefugiado = textresult["telefone_refugiado"].ToString();
+                    DadosByRefugiado.DeficienciaRefugiado = textresult["deficiencia_refugiado"].ToString();
+                    DadosByRefugiado.EmailRefugiado = textresult["email_refugiado"].ToString();
+                    DadosByRefugiado.SenhaRefugiado = textresult["senha_refugiado"].ToString();
+                    DadosByRefugiado.RefugiadoID = (int)textresult["refugiado_id"];
                     await Navigation.PushAsync(new PaginaRefugiado());
                 }
                 else
                 {
-                    await DisplayAlert("Atenção", @"Login Inválido, tente novamente", "Beleza");
+                    await DisplayAlert("Atenção", @"Login Inválido, tente novamente", "Fechar");
                 }
             }
         }

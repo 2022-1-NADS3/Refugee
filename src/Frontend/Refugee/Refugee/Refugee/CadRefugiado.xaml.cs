@@ -66,7 +66,7 @@ namespace Refugee
                 string.IsNullOrWhiteSpace(telefone.Text) || string.IsNullOrWhiteSpace(deficiencia.Text) ||
                 string.IsNullOrWhiteSpace(email.Text) || string.IsNullOrWhiteSpace(senha.Text)){
 
-                await DisplayAlert("Atenção", @"Todos os campos tem que conter dados", "Beleza");
+                await DisplayAlert("Atenção", @"Todos os campos devem ser preenchidos", "Fechar");
 
             }
             else

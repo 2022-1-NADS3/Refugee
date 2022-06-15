@@ -47,7 +47,7 @@ app.post('/login_refugiado', async (req, res) => {
     console.log(refuemail,refusenha)
  try {
      const allTodos = await pool.query('SELECT * FROM cadRefugiado WHERE email_refugiado = ($1) AND senha_refugiado = ($2)', [refuemail, refusenha])
-     return res.status(200).send(allTodos.rows[0])
+     return res.status(200).send(allTodos.rows[0])  
      } catch(err) {
          return res.status(400).send(err)
      }

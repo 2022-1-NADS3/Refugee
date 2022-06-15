@@ -42,7 +42,7 @@ namespace Refugee
         {
             if (string.IsNullOrWhiteSpace(emailong.Text) || string.IsNullOrWhiteSpace(senhaong.Text))
             {
-                await DisplayAlert("Atenção", @"Todos os campos tem que conter dados", "Beleza");
+                await DisplayAlert("Atenção", @"Todos os campos devem ser preenchidos", "Fechar");
             }
 
             else
@@ -64,16 +64,23 @@ namespace Refugee
                 // exibe a saida no TextView 
                 if (post.IsSuccessStatusCode && result.Contains(emailong.Text))
                 {
-                    //DadosModel.EmailModel = textresult["user_email"].ToString();
-                    //DadosModel.NomeModel = textresult["user_name"].ToString();
-                    //DadosModel.SenhaModel = textresult["user_password"].ToString();
-                    //DadosModel.SexoModel = textresult["user_sex"].ToString();
-                    //DadosModel.UserId = (int)textresult["user_id"];
+
+                    //DadosByRefugiado.NomeRefugiado = textresult["refuname"].ToString();
+                    //DadosByRefugiado.SexoRefugiado = textresult["refusexo"].ToString();
+                    //DadosByRefugiado.PaisRefugiado = textresult["refupais"].ToString();
+                    //DadosByRefugiado.IdiomaRefugiado = textresult["refuidioma"].ToString();
+                    //DadosByRefugiado.EstadoCivilRefugiado = textresult["refuestadoCivil"].ToString();
+                    //DadosByRefugiado.NumeroFilhoRefugiado = textresult["refunumeroFilhos"].ToString();
+                    //DadosByRefugiado.TelefoneRefugiado = textresult["refutelefone"].ToString();
+                    //DadosByRefugiado.DeficienciaRefugiado = textresult["refudeficiencia"].ToString();
+                    //DadosByRefugiado.EmailRefugiado = textresult["refuemail"].ToString();
+                    //DadosByRefugiado.SenhaRefugiado = textresult["refusenha"].ToString();
+                    //DadosByRefugiado.RefugiadoID = (int)textresult["user_id"];
                     await Navigation.PushAsync(new PaginaONG());
                 }
                 else
                 {
-                    await DisplayAlert("Atenção", @"Login Inválido, tente novamente", "Beleza");
+                    await DisplayAlert("Atenção", @"Login Inválido, tente novamente", "Fechar");
                 }
             }
         }

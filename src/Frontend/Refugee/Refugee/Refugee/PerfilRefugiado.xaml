@@ -36,28 +36,44 @@
                 StrokeThickness="5"/>
                 <Label Text="Meus Dados" FontSize="Title" TextColor="Black" HorizontalOptions="Center"/>
                 <StackLayout BackgroundColor="White" Padding="0,10,0,10">
-                    <Label Text="Node Refugiado" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                    <Label Text="Karin" x:Name="NomeRefugiado" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+                    <Label Text="Nome Refugiado" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Entry Text="" x:Name="nomeRefugiado" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0" IsEnabled="False"/>
                 </StackLayout>
                 <StackLayout BackgroundColor="White" Padding="0,10,0,10">
-                    <Label Text="Nome Social" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                    <Label Text="Valentina" x:Name="NomeSocial" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+                    <Label Text="Sexo" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Entry Text="" x:Name="sexorefugiado" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0" IsEnabled="False"/>
                 </StackLayout>
                 <StackLayout BackgroundColor="White" Padding="0,10,0,10">
-                    <Label Text="Celular" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                    <Label Text="1123476589" x:Name="CelularRefugiado" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+                    <Label Text="País" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Entry Text="" x:Name="paisrefugiado" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0" IsEnabled="False"/>
                 </StackLayout>
                 <StackLayout BackgroundColor="White" Padding="0,10,0,10">
-                    <Label Text="Email" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                    <Label Text="refugiado@refu.com" x:Name="RefugiadoEmail" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+                    <Label Text="Idioma" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Entry Text="" x:Name="idiomarefugiado" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0" IsEnabled="False"/>
                 </StackLayout>
                 <StackLayout BackgroundColor="White" Padding="0,10,0,10">
-                    <Label Text="Endereço" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                    <Label Text="Rua dos caras" x:Name="EnderecoRefugiado" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+                    <Label Text="Estado Civil" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Entry Text="" x:Name="esdatocivil" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0" IsEnabled="False"/>
                 </StackLayout>
                 <StackLayout BackgroundColor="White" Padding="0,10,0,10">
-                    <Label Text="Estado Civíl" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
-                    <Label Text="3" x:Name="EstadoCivil" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0"/>
+                    <Label Text="Nume de Filhos" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Entry Text="" x:Name="numerofilhos" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0" IsEnabled="False"/>
+                </StackLayout>
+                <StackLayout BackgroundColor="White" Padding="0,10,0,10">
+                    <Label Text="Telefone" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Entry Text="" x:Name="telefonerefugiado" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0" IsEnabled="False"/>
+                </StackLayout>
+                <StackLayout BackgroundColor="White" Padding="0,10,0,10">
+                    <Label Text="Deficiência" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Entry Text="" x:Name="deficiencia" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0" IsEnabled="False"/>
+                </StackLayout>
+                <StackLayout BackgroundColor="White" Padding="0,10,0,10">
+                    <Label Text="email" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Entry Text="" x:Name="emailrefugiado" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0" IsEnabled="False"/>
+                </StackLayout>
+                <StackLayout BackgroundColor="White" Padding="0,10,0,10">
+                    <Label Text="senha" FontSize="Subtitle" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0"/>
+                    <Entry Text="" x:Name="senharefugiado" FontSize="Medium" TextColor="Black" Margin="10,-8,0,0" IsEnabled="False"/>
                 </StackLayout>
                 <Button Text="Alterar Dados" 
                     TextColor="White"
