@@ -91,7 +91,7 @@ namespace Refugee
 
                 if (result.IsSuccessStatusCode)
                 {
-                    await Navigation.PushAsync(new LoginRefugiado());
+                    await Navigation.PushAsync(new LoginONG());
                 }
             }
         }
