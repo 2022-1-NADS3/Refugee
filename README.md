@@ -22,7 +22,9 @@
 
 <h3>Refugee</h3>
 <br><br>
-Refugee foi criada com o objetivo de ajudar e auxiliar na integraçào de um refugiado e levá-lo á quem tem a possibilidade e recursos para ajudar ongs e Insituições.
+Através de pesquisas realizadas, identificamos que os refugiados, ao chegarem em um novo país encontram dificuldades em conseguir abrigo e refúgio para se reestabelecerem.
+Com o objetivo de solucionar este problema criamos uma solução mobile destinada a facilitar a busca do refugiado pelo abrigo mais próximo de sua localização.
+Atráves do nosso App, os refugiados podem criar um cadastro e encontrar a ONG mais próxima disposta a fornecer ajuda.
 <br><br>
 May the force be with you!
 <br><br>
