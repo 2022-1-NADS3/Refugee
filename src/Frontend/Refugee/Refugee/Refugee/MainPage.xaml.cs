@@ -14,10 +14,6 @@ namespace Refugee
         {
             Navigation.PushAsync(new LoginRefugiado());
         }
-        private void LoginONGs(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new LoginONG());
-        }
         public MainPage()
         {
             InitializeComponent();
