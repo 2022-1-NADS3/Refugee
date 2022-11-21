@@ -10,10 +10,6 @@ namespace Refugee
 {
     public partial class MainPage : ContentPage
     {
-        private void LoginRefugiados(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new LoginRefugiado());
-        }
         private void LoginONGs(object sender, EventArgs e)
         {
             Navigation.PushAsync(new LoginONG());

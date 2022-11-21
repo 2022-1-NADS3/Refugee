@@ -91,6 +91,7 @@ namespace Refugee
 
                 if (result.IsSuccessStatusCode)
                 {
+                    await DisplayAlert("Sucesso", @"Cadastro realizado com sucesso", "Fechar");
                     await Navigation.PushAsync(new LoginONG());
                 }
             }

@@ -20,15 +20,7 @@
                TextColor="Black" 
                HorizontalTextAlignment="Center"
                Margin="30, 0 , 30, 0"/>
-        
-        <Button Text="Sou Refugiado" 
-                TextColor="White"
-                BackgroundColor="Green" 
-                FontFamily=""  
-                Clicked="LoginRefugiados"
-                FontSize="14"
-                Margin="70, 125 , 70, 0"/>
-        
+                
         <Button Text="Sou ONG" 
                 TextColor="White"
                 BackgroundColor="Green" 
