@@ -60,10 +60,11 @@ namespace Refugee
 
         async void Cadastrar(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(nome.Text) || string.IsNullOrWhiteSpace(sexo.Text) || 
-                string.IsNullOrWhiteSpace(paises.Text) || string.IsNullOrWhiteSpace(idioma.Text) ||
-                string.IsNullOrWhiteSpace(estadocivil.Text) || string.IsNullOrWhiteSpace(ndefilhos.Text) ||
-                string.IsNullOrWhiteSpace(telefone.Text) || string.IsNullOrWhiteSpace(deficiencia.Text) ||
+            if (string.IsNullOrWhiteSpace(nome.Text) || //string.IsNullOrWhiteSpace("")|| 
+                //string.IsNullOrWhiteSpace("") ||
+                string.IsNullOrWhiteSpace(idioma.Text) ||
+                //string.IsNullOrWhiteSpace("") || string.IsNullOrWhiteSpace("") ||
+                string.IsNullOrWhiteSpace(telefone.Text) || //string.IsNullOrWhiteSpace("") ||
                 string.IsNullOrWhiteSpace(email.Text) || string.IsNullOrWhiteSpace(senha.Text)){
 
                 await DisplayAlert("Atenção", @"Todos os campos devem ser preenchidos", "Fechar");
@@ -75,13 +76,13 @@ namespace Refugee
                 var refuiadoPost = new CadastroUsuario
                 {
                     refuname = nome.Text,
-                    refusexo = sexo.Text,
-                    refupais = paises.Text,
+                    refusexo = " ",
+                    refupais = " ",
                     refuidioma = idioma.Text,
-                    refuestadoCivil = estadocivil.Text,
-                    refunumeroFilhos = ndefilhos.Text,
+                    refuestadoCivil = " ",
+                    refunumeroFilhos = " ",
                     refutelefone = telefone.Text,
-                    refudeficiencia = deficiencia.Text,
+                    refudeficiencia = " ",
                     refuemail = email.Text,
                     refusenha = senha.Text
                 };
@@ -94,6 +95,7 @@ namespace Refugee
 
                 if (result.IsSuccessStatusCode)
                 {
+                    await DisplayAlert("Sucesso", @"Cadastro realizado com sucesso", "Fechar");
                     await Navigation.PushAsync(new LoginRefugiado());
                 }
             }

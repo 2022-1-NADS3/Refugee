@@ -32,7 +32,7 @@
                    BackgroundColor="AliceBlue" 
                    ClearButtonVisibility="WhileEditing" 
                    Margin="30, 0, 30, 5"/>
-
+            <!--
             <Label Text="Sexo" 
                    TextColor="Black" 
                    FontSize="15"   
@@ -44,10 +44,10 @@
                 PlaceholderColor="Black" 
                 BackgroundColor="AliceBlue" 
                 ClearButtonVisibility="WhileEditing" 
-                Margin="30, 0, 30, 5"/>
+                Margin="30, 0, 30, 5"/> -->
 
 
-            <Label Text="País" 
+            <!--<Label Text="País" 
                    TextColor="Black" 
                    FontSize="15"   
                    Margin="30, 0, 30, 5"/>
@@ -58,7 +58,7 @@
             PlaceholderColor="Black" 
             BackgroundColor="AliceBlue" 
             ClearButtonVisibility="WhileEditing" 
-            Margin="30, 0, 30, 5"/>
+            Margin="30, 0, 30, 5"/>-->
 
 
             <Label Text="Idiomas" 
@@ -74,7 +74,7 @@
                    ClearButtonVisibility="WhileEditing" 
                    Margin="30, 0, 30, 5"/>
 
-            <Label Text="Estado Civil" 
+            <!--<Label Text="Estado Civil" 
                    TextColor="Black" 
                    FontSize="15"  
                    Margin="30, 0, 30, 5"/>
@@ -100,7 +100,7 @@
             PlaceholderColor="Black" 
             BackgroundColor="AliceBlue" 
             ClearButtonVisibility="WhileEditing" 
-            Margin="30, 0, 30, 5"/>
+            Margin="30, 0, 30, 5"/>-->
 
 
             <Label Text="Telefone" 
@@ -116,7 +116,7 @@
                    ClearButtonVisibility="WhileEditing" 
                    Margin="30, 0, 30, 5"/>  
 
-            <Label Text="Deficiência" 
+            <!--<Label Text="Deficiência" 
                    TextColor="Black" 
                    FontSize="15"   
                    Margin="30, 0, 30, 5"/>
@@ -127,7 +127,7 @@
                    PlaceholderColor="Black" 
                    BackgroundColor="AliceBlue" 
                    ClearButtonVisibility="WhileEditing" 
-                   Margin="30, 0, 30, 5"/>
+                   Margin="30, 0, 30, 5"/>-->
 
             <Label Text="Email" 
                    TextColor="Black" 
