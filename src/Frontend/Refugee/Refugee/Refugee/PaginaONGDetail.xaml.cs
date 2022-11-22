@@ -30,7 +30,8 @@ namespace Refugee
         public PaginaONGDetail()
         {
             InitializeComponent();
-            nomeONG.Text = DadosByONGs.NomeONG;
+            NomeDaONG.Text = DadosByONGs.NomeONG;
+            
             enderecoONG.Text = DadosByONGs.EnderecoONG;
             telefoneONG.Text = DadosByONGs.TelefoneONG;
             responsavelONG.Text = DadosByONGs.ResponsavelONG;
@@ -43,7 +44,7 @@ namespace Refugee
         }
         async void SairByONG(object sender, EventArgs e)
         {
-            nomeONG.Text = "";
+            NomeDaONG.Text = "";
             DadosByONGs.NomeONG = "";
             enderecoONG.Text = "";
             DadosByONGs.EnderecoONG = "";

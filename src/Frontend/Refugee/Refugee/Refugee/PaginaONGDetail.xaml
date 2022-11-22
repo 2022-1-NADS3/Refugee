@@ -6,7 +6,7 @@
              Title="Refugee">
     <ScrollView>
         <StackLayout>
-            <Label Text="Nome ONG" x:Name="NomeDaONG" FontSize="20" TextColor="Black" HorizontalOptions="Center"/>
+            <Label Text="" x:Name="NomeDaONG" FontSize="20" TextColor="Black" HorizontalOptions="Center"/>
             <Line X1="380"
                 Y1="0"
                 X2="30"
@@ -28,10 +28,6 @@
                             WidthRequest="50"/>
             </Frame>
             <Label Text="Contato" FontSize="Title" TextColor="Black" HorizontalOptions="Center"/>
-            <StackLayout BackgroundColor="#28C91B" Padding="0,10,0,10" Margin="10,5,10,2">
-                <Label Text="Nome ONG" FontSize="Subtitle" TextColor="White" FontAttributes="Bold" Margin="10,0,0,0"/>
-                <Entry IsEnabled="False" Text="" x:Name="nomeONG" FontSize="Large" TextColor="White" Margin="10,-8,0,0"/>
-            </StackLayout>
             <StackLayout BackgroundColor="#28C91B" Padding="0,10,0,10" Margin="10,3,10,2">
                 <Label Text="Endereço da ONG" FontSize="Subtitle" TextColor="White" FontAttributes="Bold" Margin="10,0,0,0"/>
                 <Entry IsEnabled="False" Text="" x:Name="enderecoONG" FontSize="Large" TextColor="White" Margin="10,-8,0,0"/>
