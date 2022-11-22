@@ -9,8 +9,14 @@
             <StackLayout>
                 <Label Text="Lista de ONGs" TextColor="Black" FontSize="25" FontFamily="sans serif" HorizontalOptions="Center" Padding="10"/>
                 <StackLayout BackgroundColor="AliceBlue" Padding="20" Margin="10,0,10,-10">
+                    <Label Text="Distancia ONG" 
+                           x:Name="dist_ong1" 
+                           TextColor="Black" 
+                           FontSize="20"
+                           Margin="300, 0, 0, -25"/>
                     <Label Text="Nome ONG" TextColor="Black" x:Name="Nome_ong1" FontSize="20"/>
                     <Label Text="Informações sobre a ONG!" x:Name="Info_ong1" TextColor="Black" FontSize="15"/>
+                    <Label Text="Localidade da ONG" x:Name="localong1" TextColor="Black" FontSize="15"/>
                     <Button Text="Mais informação"
                             TextColor="Black"
                             FontSize="15"
@@ -20,8 +26,14 @@
                             Clicked="AbrirPaginaONG"/>
                 </StackLayout>
                 <StackLayout BackgroundColor="AliceBlue" Padding="20" Margin="10,10,10,-10">
+                    <Label Text="Distancia ONG" 
+                           x:Name="dist_ong2" 
+                           TextColor="Black" 
+                           FontSize="20"
+                           Margin="300, 0, 0, -25"/>
                     <Label Text="Nome ONG" TextColor="Black" x:Name="Nome_ong2" FontSize="20"/>
                     <Label Text="Informações sobre a ONG!" x:Name="Info_ong2" TextColor="Black" FontSize="15"/>
+                    <Label Text="Localidade da ONG" x:Name="localong2" TextColor="Black" FontSize="15"/>
                     <Button Text="Mais informação"
                             TextColor="Black"
                             FontSize="15"
@@ -31,8 +43,14 @@
                             Clicked="AbrirPaginaONG"/>
                 </StackLayout>
                 <StackLayout BackgroundColor="AliceBlue" Padding="20" Margin="10,10,10,-10">
+                    <Label Text="Distancia ONG" 
+                           x:Name="dist_ong3" 
+                           TextColor="Black" 
+                           FontSize="20"
+                           Margin="300, 0, 0, -25"/>
                     <Label Text="Nome ONG" TextColor="Black" x:Name="Nome_ong3" FontSize="20"/>
                     <Label Text="Informações sobre a ONG!" x:Name="Info_ong3" TextColor="Black" FontSize="15"/>
+                    <Label Text="Localidade da ONG" x:Name="localong3" TextColor="Black" FontSize="15"/>
                     <Button Text="Mais informação"
                             TextColor="Black"
                             FontSize="15"
@@ -42,8 +60,14 @@
                             Clicked="AbrirPaginaONG"/>
                 </StackLayout>
                 <StackLayout BackgroundColor="AliceBlue" Padding="20" Margin="10,10,10,-10">
+                    <Label Text="Distancia ONG" 
+                           x:Name="dist_ong4" 
+                           TextColor="Black" 
+                           FontSize="20"
+                           Margin="300, 0, 0, -25"/>
                     <Label Text="Nome ONG" TextColor="Black" x:Name="Nome_ong4" FontSize="20"/>
                     <Label Text="Informações sobre a ONG!" x:Name="Info_ong4" TextColor="Black" FontSize="15"/>
+                    <Label Text="Localidade da ONG" x:Name="localong4" TextColor="Black" FontSize="15"/>
                     <Button Text="Mais informação"
                             TextColor="Black"
                             FontSize="15"
@@ -53,8 +77,14 @@
                             Clicked="AbrirPaginaONG"/>
                 </StackLayout>
                 <StackLayout BackgroundColor="AliceBlue" Padding="20" Margin="10,10,10,-10">
+                    <Label Text="Distancia ONG" 
+                           x:Name="dist_ong5" 
+                           TextColor="Black" 
+                           FontSize="20"
+                           Margin="300, 0, 0, -25"/>
                     <Label Text="Nome ONG" TextColor="Black" x:Name="Nome_ong5" FontSize="20"/>
                     <Label Text="Informações sobre a ONG!" x:Name="Info_ong5" TextColor="Black" FontSize="15"/>
+                    <Label Text="Localidade da ONG" x:Name="localong5" TextColor="Black" FontSize="15"/>
                     <Button Text="Mais informação"
                             TextColor="Black"
                             FontSize="15"
@@ -64,8 +94,14 @@
                             Clicked="AbrirPaginaONG"/>
                 </StackLayout>
                 <StackLayout BackgroundColor="AliceBlue" Padding="20" Margin="10,10,10,-10">
+                    <Label Text="Distancia ONG" 
+                           x:Name="dist_ong6" 
+                           TextColor="Black" 
+                           FontSize="20"
+                           Margin="300, 0, 0, -25"/>
                     <Label Text="Nome ONG" TextColor="Black" x:Name="Nome_ong6" FontSize="20"/>
                     <Label Text="Informações sobre a ONG!" x:Name="Info_ong6" TextColor="Black" FontSize="15"/>
+                    <Label Text="Localidade da ONG" x:Name="localong6" TextColor="Black" FontSize="15"/>
                     <Button Text="Mais informação"
                             TextColor="Black"
                             FontSize="15"
@@ -74,14 +110,20 @@
                             BackgroundColor="AliceBlue"
                             Clicked="AbrirPaginaONG"/>
                 </StackLayout>
-                <StackLayout BackgroundColor="AliceBlue" Padding="20" Margin="10,10,10,-10">
+                <StackLayout BackgroundColor="AliceBlue" Padding="20" Margin="10,10,10,20">
+                    <Label Text="Distancia ONG" 
+                           x:Name="dist_ong7" 
+                           TextColor="Black" 
+                           FontSize="20"
+                           Margin="300, 0, 0, -25"/>
                     <Label Text="Nome ONG" TextColor="Black" x:Name="Nome_ong7" FontSize="20"/>
                     <Label Text="Informações sobre a ONG!" x:Name="Info_ong7" TextColor="Black" FontSize="15"/>
+                    <Label Text="Localidade da ONG" x:Name="localong7" TextColor="Black" FontSize="15"/>
                     <Button Text="Mais informação"
                             TextColor="Black"
                             FontSize="15"
                             Margin="220, 0, -20, -18"
-                            Padding="0"
+                            Padding="0, 0, 0 ,0 "
                             BackgroundColor="AliceBlue"
                             Clicked="AbrirPaginaONG"/>
                 </StackLayout>

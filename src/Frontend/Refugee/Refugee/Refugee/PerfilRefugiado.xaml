@@ -7,10 +7,10 @@
 
         <ScrollView>
             <StackLayout>
-                <Label Text="Nome refugiado" x:Name="NomedoRefugiado" FontSize="20" TextColor="Black" HorizontalOptions="Center"/>
-                <Line X1="380"
+                <Label Text="Nome refugiado" x:Name="nomeRefugiado" FontSize="30" TextColor="Black" HorizontalOptions="Center" Margin="0,15,0,5"/>
+                <Line X1="395"
                 Y1="0"
-                X2="30"
+                X2="15"
                 Y2="0"
                 Stroke="Black" VerticalOptions="Center"
                 StrokeThickness="5"/>
@@ -28,17 +28,13 @@
                             HeightRequest="50"
                             WidthRequest="50"/>
                 </Frame>
-                <Line X1="380"
+                <Line X1="395"
                 Y1="0"
-                X2="30"
+                X2="15"
                 Y2="0"
                 Stroke="Black" VerticalOptions="Center"
                 StrokeThickness="5"/>
                 <Label Text="Meus Dados" FontSize="Title" TextColor="Black" HorizontalOptions="Center"/>
-                <StackLayout BackgroundColor="#28C91B" Padding="0,10,0,10" Margin="10,5,10,2">
-                    <Label Text="Nome Refugiado" FontSize="Subtitle" TextColor="White" FontAttributes="Bold" Margin="10,0,0,0"/>
-                    <Entry Text="" x:Name="nomeRefugiado" FontSize="Large" TextColor="White" Margin="10,-8,0,0" IsEnabled="False"/>
-                </StackLayout>
                 <StackLayout BackgroundColor="#28C91B" Padding="0,10,0,10" Margin="10,3,10,2">
                     <Label Text="Sexo" FontSize="Subtitle" TextColor="White" FontAttributes="Bold" Margin="10,0,0,0"/>
                     <Entry Text="" x:Name="sexorefugiado" FontSize="Large" TextColor="White" Margin="10,-8,0,0" IsEnabled="False"/>

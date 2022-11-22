@@ -9,6 +9,7 @@ using Xamarin.Forms.Xaml;
 using Newtonsoft.Json;
 using System.Net.Http;
 using Newtonsoft.Json.Linq;
+using static Refugee.PaginaRefugiadoDetail;
 
 
 namespace Refugee
@@ -78,6 +79,41 @@ namespace Refugee
                     DadosByRefugiado.EmailRefugiado = textresult["email_refugiado"].ToString();
                     DadosByRefugiado.SenhaRefugiado = textresult["senha_refugiado"].ToString();
                     DadosByRefugiado.RefugiadoID = (int)textresult["refugiado_id"];
+                    DadosByONGs.NomeONG = "ONG Nova Esperança";
+                    DadosByONGs.CapacidadeONG = "248 VAGAS";
+                    DadosByONGs.LocalOng = "Av. Brigadeiro Luís Antônio, 78";
+                    DadosByONGs.DistanciaOng = "15 Km";
+
+                    DadosByONGs.NomeONG2 = "ONG Bom Samaritano";
+                    DadosByONGs.CapacidadeONG2 = "400 VAGAS";
+                    DadosByONGs.LocalOng2 = "Rua do Lavapés, 981";
+                    DadosByONGs.DistanciaOng2 = "19 Km";
+
+                    DadosByONGs.NomeONG3 = "ONG Vila 567";
+                    DadosByONGs.CapacidadeONG3 = "278 VAGAS";
+                    DadosByONGs.LocalOng3 = "Vila Madalena, 567";
+                    DadosByONGs.DistanciaOng3 = "20 Km";
+
+                    DadosByONGs.NomeONG4 = "ONG Nova São Paulo";
+                    DadosByONGs.CapacidadeONG4 = "700 VAGAS";
+                    DadosByONGs.LocalOng4 = "Av. Duque de Caxias , 763";
+                    DadosByONGs.DistanciaOng4 = "43 Km";
+
+                    DadosByONGs.NomeONG5 = "ONG Bom Jesus";
+                    DadosByONGs.CapacidadeONG5 = "532 VAGAS";
+                    DadosByONGs.LocalOng5 = "Av. Elixio Teixeira Leite, 240";
+                    DadosByONGs.DistanciaOng5 = "52 Km";
+
+                    DadosByONGs.NomeONG6 = "ONG Parque Isabel";
+                    DadosByONGs.CapacidadeONG6 = "15 VAGAS";
+                    DadosByONGs.LocalOng6 = "Parque Isabel, 645";
+                    DadosByONGs.DistanciaOng6 = "70 Km";
+
+                    DadosByONGs.NomeONG7 = "ONG Vida Nova";
+                    DadosByONGs.CapacidadeONG7 = "40 VAGAS";
+                    DadosByONGs.LocalOng7 = "Rua da Esperança, 30";
+                    DadosByONGs.DistanciaOng7 = "80 Km";
+
                     await Navigation.PushAsync(new PaginaRefugiado());
                 }
                 else
